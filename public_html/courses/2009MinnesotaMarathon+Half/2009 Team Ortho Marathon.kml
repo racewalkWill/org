@@ -1,0 +1,1189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>2009 Team Ortho Marathon.kml</name>
+	<Style id="sn_ylw-square4">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-square2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-square6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-square1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-square10">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-square6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-square9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-square11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-square11">
+		<IconStyle>
+			<scale>0.59091</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.2</scale>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-square0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-square4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-square8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-square7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-square11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-square9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin6">
+		<LineStyle>
+			<color>ff7f00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-square2">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ltblu-diamond11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ltblu-diamond02</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ltblu-diamond0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ltblu-diamond1">
+		<IconStyle>
+			<scale>0.59091</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin03</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ltblu-diamond0">
+		<IconStyle>
+			<scale>0.59091</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-square1">
+		<IconStyle>
+			<scale>0.59091</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-square10">
+		<IconStyle>
+			<scale>0.59091</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-square">
+		<IconStyle>
+			<scale>0.59091</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-square8">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_red-diamond0">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_red-diamond">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_red-diamond00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-diamond0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-diamond0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-square0">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-square2">
+		<IconStyle>
+			<scale>0.59091</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-square">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-square7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-square6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ltblu-diamond2">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-square9">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ltblu-diamond10">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin03">
+		<IconStyle>
+			<scale>1.2</scale>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7f00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ltblu-diamond02">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_red-diamond02">
+		<IconStyle>
+			<scale>0.59091</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-square7">
+		<IconStyle>
+			<scale>0.59091</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_red-diamond">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-diamond</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-diamond02</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-square3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-square10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-square7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-square5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-square00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-square0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-square3">
+		<IconStyle>
+			<scale>0.59091</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ltblu-diamond0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ltblu-diamond10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ltblu-diamond2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-square4">
+		<IconStyle>
+			<scale>0.59091</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-square9">
+		<IconStyle>
+			<scale>0.59091</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-square5">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-square6">
+		<IconStyle>
+			<scale>0.59091</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-square4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-square1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-square3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-square11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-square3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-square5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-square6">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-square1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-square8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-square40</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-square0">
+		<IconStyle>
+			<scale>0.59091</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-square7">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-square8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-square5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-square10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ltblu-diamond00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ltblu-diamond2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ltblu-diamond1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-square00">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-square3">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-square12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-square</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-square4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-square">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ltblu-diamond2">
+		<IconStyle>
+			<scale>0.59091</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-square10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-square0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-square2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-square11">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-square5">
+		<IconStyle>
+			<scale>0.59091</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-square9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-square2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-square</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-square40">
+		<IconStyle>
+			<scale>0.59091</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_red-diamond0">
+		<IconStyle>
+			<scale>0.59091</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-square1">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-square8">
+		<IconStyle>
+			<scale>0.59091</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>2009 Team Ortho Marathon</name>
+		<open>1</open>
+		<Folder>
+			<name>2009 Minneapolis Marathon</name>
+			<open>1</open>
+			<Placemark>
+				<name>Marathon Course</name>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+-93.25800004521203,44.97884308023583,0 -93.25241294439591,44.97647767058622,0 -93.25234076535725,44.97648991661318,0 -93.25202888205139,44.97686566397077,0 -93.25149745679487,44.97772949693862,0 -93.25149744534879,44.97776421717991,0 -93.25153497625725,44.97779281204051,0 -93.25182063303384,44.97796362055199,0 -93.25204869388759,44.97807801329267,0 -93.25239223866596,44.97820262872297,0 -93.25270692029197,44.97828639434675,0 -93.25322370272578,44.97836405177369,0 -93.25441319045437,44.97842338704539,0 -93.25487800918734,44.97848878014765,0 -93.2552850752673,44.97863585901042,0 -93.25616523257078,44.97903557692941,0 -93.25840343545083,44.9799927564962,0 -93.25893078642076,44.98041319878267,0 -93.25944757300792,44.98073794442591,0 -93.25957171774685,44.98082576858288,0 -93.26000477304002,44.98126079132123,0 -93.26020398642409,44.9813935479091,0 -93.26056200172474,44.98155286039381,0 -93.26132914537988,44.98194541185663,0 -93.26162653106164,44.98214964799947,0 -93.26215490244645,44.98265002295204,0 -93.2643283510392,44.98422454067043,0 -93.26445149803283,44.98428463424143,0 -93.26506652425552,44.98456850908128,0 -93.2652455492166,44.98473189069213,0 -93.26538703834065,44.98488301900238,0 -93.26572777447595,44.98530168732881,0 -93.26582073475592,44.98539146797587,0 -93.26656861885627,44.98605928119221,0 -93.26661193402882,44.98611646423742,0 -93.26754729967954,44.98772054239351,0 -93.26767713454605,44.98793817352421,0 -93.26780130852733,44.98805049515583,0 -93.26798034787153,44.98816485717318,0 -93.26811029549192,44.98822203712805,0 -93.26877447281605,44.98850384868395,0 -93.26882645278676,44.98853448090625,0 -93.26910656974754,44.98873665494566,0 -93.26955998475272,44.98922270417675,0 -93.26970498395946,44.98937570984433,0 -93.26992735225977,44.98954520838547,0 -93.27015838274416,44.98968815663956,0 -93.27040096238032,44.98979842760299,0 -93.27157383603941,44.990175310199,0 -93.27176154419479,44.99022227074524,0 -93.27207919602235,44.99023450367078,0 -93.27240261788974,44.99020384750669,0 -93.27317361914705,44.99003019759089,0 -93.27352754396451,44.99002394903028,0 -93.27384231414222,44.9900790648937,0 -93.27415998887076,44.99023016670356,0 -93.27439682039891,44.99044662785829,0 -93.27452391814657,44.99065492958448,0 -93.27454706204833,44.99088774840787,0 -93.2745588486805,44.99138102199373,0 -93.27462529657655,44.99154235604892,0 -93.27472350694562,44.99168326448709,0 -93.27497767989144,44.99193444196961,0 -93.27531152838682,44.99222004947754,0 -93.27534331476795,44.99232624501844,0 -93.27536932714071,44.99244061032486,0 -93.27535786407421,44.99290421114571,0 -93.2753890207099,44.99302951179993,0 -93.27609662991017,44.99468593966393,0 -93.27642748460144,44.99551917861592,0 -93.27688252685071,44.9974646677724,0 -93.27705605366121,44.99853072254874,0 -93.2770820577914,44.99857973457666,0 -93.2771148250059,44.99861829349023,0 -93.27736904844457,44.99889805833715,0 -93.27738061494203,44.99895728342827,0 -93.27733152319394,44.9989899655157,0 -93.27727087675611,44.99901447969827,0 -93.2771697914028,44.99902061767948,0 -93.27424404264552,44.99888611728056,0 -93.2696794130477,44.9986373387332,0 -93.26914281392989,44.99862919066428,0 -93.26908793715735,44.99860877017439,0 -93.26905327690025,44.99858017966742,0 -93.26505516233407,44.99305038443367,0 -93.26496852424455,44.9929748200665,0 -93.26484723129116,44.99289108639464,0 -93.2628654028683,44.99199918490603,0 -93.26278165763864,44.99194199990877,0 -93.26267192335057,44.99184192649123,0 -93.2626008345643,44.9917692597847,0 -93.26255174382564,44.99170390574928,0 -93.26127506687352,44.99014242813054,0 -93.26123464018409,44.99011587736344,0 -93.26117111055226,44.99011179103761,0 -93.25994669439355,44.99037520620352,0 -93.25990049004948,44.99037928910084,0 -93.25985428771514,44.99035886450152,0 -93.25866198688729,44.98858245012418,0 -93.25865621508621,44.98854773102216,0 -93.25868220689863,44.98851914032275,0 -93.2593406241198,44.98813930676148,0 -93.25968138561554,44.98786565579384,0 -93.25971603985818,44.98782889614926,0 -93.25971698794554,44.98780693478837,0 -93.25901251863022,44.98664892923302,0 -93.25881550457625,44.98634694798432,0 -93.25873754927221,44.98626116801038,0 -93.25854410129563,44.98609573318035,0 -93.25801284297884,44.98568929132351,0 -93.25762306406547,44.98540539238834,0 -93.25743619608127,44.98530858275581,0 -93.25701753013328,44.98514313093871,0 -93.24934027761739,44.98203463288046,0 -93.24932296005872,44.98201012320521,0 -93.24931430818968,44.98197131868616,0 -93.24932586277807,44.981950897382,0 -93.24987835527408,44.98148172475502,0 -93.25024508184005,44.9813040920165,0 -93.2552969007898,44.98046503337968,0 -93.25595202155925,44.98037202883974,0 -93.25638222448112,44.98034142533886,0 -93.25682108232178,44.98034962413333,0 -93.2573609865354,44.98040888440897,0 -93.25775652754109,44.98049468362731,0 -93.25803080994885,44.98057230661869,0 -93.25872083996994,44.9808051632964,0 -93.25875548739526,44.9808051650733,0 -93.25896395099663,44.98052089797245,0 -93.2584269726206,44.98000417140498,0 -93.25614346500218,44.97902347699755,0 -93.2554592554381,44.97869666092761,0 -93.25486453326091,44.9784760471449,0 -93.25437686818485,44.9784206371801,0 -93.25320181254367,44.97836130367858,0 -93.25268791583598,44.97828160373465,0 -93.25236457079633,44.97819375237908,0 -93.25202656398443,44.97807075614448,0 -93.25136260812555,44.97771328304998,0 -93.25105660307048,44.97759683809477,0 -93.25073326236557,44.97753961639207,0 -93.24991045120659,44.97748845890818,0 -93.2497285618341,44.97749252049358,0 -93.24913961995142,44.97754267951078,0 -93.24891731174164,44.97755081884924,0 -93.24873831614065,44.97753649862171,0 -93.24775383277391,44.97749143012982,0 -93.24750554247176,44.97749343619873,0 -93.24730195970774,44.9775302069207,0 -93.24671152966504,44.977685291767,0 -93.24656427703812,44.97771386122462,0 -93.24642708774478,44.97772447299995,0 -93.24628273262465,44.97772036514021,0 -93.24612971959495,44.97770604426415,0 -93.24606043323871,44.97769173691496,0 -93.2444350878754,44.97742188224362,0 -93.24428784856525,44.9774157298702,0 -93.2441117367965,44.97741365687438,0 -93.24325425918435,44.9774339273175,0 -93.24308888639936,44.97741824021462,0 -93.24292685697553,44.97737727005945,0 -93.24271687321291,44.97730710019805,0 -93.24248883096368,44.97720902732655,0 -93.24229833086694,44.97708645378278,0 -93.24211072398785,44.97694958455185,0 -93.24199529457856,44.97681272902056,0 -93.24190008785786,44.9766432007464,0 -93.24182221340109,44.97644916834902,0 -93.24176747312242,44.97615915287752,0 -93.24177912806434,44.97588548847673,0 -93.24184273686936,44.97564246829479,0 -93.24196373479937,44.97522456004217,0 -93.24197821194554,44.97511632206599,0 -93.24197148907491,44.97501817040504,0 -93.24194936102408,44.97490142012641,0 -93.24190904171719,44.97481813560845,0 -93.24169268200281,44.97441575868985,0 -93.24157423283239,44.97418542321611,0 -93.24150503249575,44.97396484127657,0 -93.24146470245374,44.97374426585823,0 -93.2414187866857,44.97304988047977,0 -93.24137563563201,44.97267817556126,0 -93.24132958548675,44.97240698187789,0 -93.24125752181234,44.97213738513683,0 -93.2411162147595,44.97177178784714,0 -93.24101526135287,44.97156345475334,0 -93.24090255441641,44.97136699426709,0 -93.24069771067224,44.9710749039056,0 -93.24050439206395,44.97084408538176,0 -93.2402620140242,44.97058262263126,0 -93.23995613966417,44.9703007234593,0 -93.23968199426992,44.97008418316337,0 -93.23931260291623,44.96983698671019,0 -93.23893742855739,44.96961633645921,0 -93.23853338373424,44.96940588844939,0 -93.23811774640815,44.96921291758991,0 -93.23767617415946,44.96900858486191,0 -93.23728654440792,44.96885532133211,0 -93.23685937362896,44.96874085148419,0 -93.23637446409381,44.96864474684728,0 -93.23534690775639,44.96847293996027,0 -93.23478694927351,44.96837272490416,0 -93.23427029043046,44.96827047566306,0 -93.23330050526018,44.96806292628715,0 -93.23220373945171,44.96779916928228,0 -93.23117625673994,44.96754563358943,0 -93.23042584721543,44.96736160722567,0 -93.23002990344546,44.96725991694408,0 -93.22949922721315,44.96708257365543,0 -93.22914065404987,44.96695060011935,0 -93.22874855147191,44.96679796608527,0 -93.22852635734371,44.96668148948521,0 -93.22842248335049,44.96661814519242,0 -93.22800410316181,44.96634434817815,0 -93.22771846700513,44.96614615560247,0 -93.22759153142069,44.9660378742585,0 -93.22737000767576,44.96587258332322,0 -93.22724018808682,44.96576021604572,0 -93.22687959289223,44.96542516345406,0 -93.22650750100118,44.96502475432175,0 -93.2258037089497,44.96427500192982,0 -93.22387452847359,44.96223150173028,0 -93.22344039886674,44.96187660840467,0 -93.22250283509489,44.96121048605617,0 -93.22212494610319,44.96091625691012,0 -93.22184115998986,44.96066801756393,0 -93.22149216162995,44.96035133340349,0 -93.22062406596992,44.95948099225904,0 -93.22030448912329,44.95922185640752,0 -93.21894065878459,44.95822960440701,0 -93.21870991199135,44.95804162097,0 -93.21805636245283,44.95749708949945,0 -93.21786599486713,44.95735609506286,0 -93.21709001195777,44.956892178067,0 -93.21626027067548,44.95644584606511,0 -93.21423515998002,44.95542179286973,0 -93.21407761649111,44.9553341112317,0 -93.21397091256765,44.95524624574568,0 -93.21385556376174,44.95514408047533,0 -93.21308870833178,44.95423696686338,0 -93.21296761090075,44.95411233334709,0 -93.21279748966197,44.95394683169233,0 -93.21255453753136,44.95374654791929,0 -93.21236997265432,44.9535994191074,0 -93.21066550331864,44.95243453202736,0 -93.20995886646882,44.95201348428218,0 -93.20944316879404,44.95172462844833,0 -93.20906243433396,44.95152429984626,0 -93.20664371452503,44.95032549485114,0 -93.20654853675632,44.95027438959036,0 -93.20604674814851,44.94995349745562,0 -93.2059025821754,44.94983701419705,0 -93.2057296368599,44.94964495162438,0 -93.20565472400537,44.94953258785195,0 -93.20562701590329,44.94943459656107,0 -93.20544006261358,44.94883406852932,0 -93.20534214792932,44.94864204366819,0 -93.20527590229607,44.94852151507732,0 -93.20456205902507,44.94750672345228,0 -93.20421050056044,44.94704498278727,0 -93.20406645009166,44.94682842535326,0 -93.20393402056872,44.94653835194702,0 -93.20379875450524,44.94620334635896,0 -93.20367792826045,44.94585813567807,0 -93.2034917711336,44.94521299977659,0 -93.20347773130396,44.94515690087307,0 -93.20349795213147,44.94513648822596,0 -93.20371734205268,44.9450487852635,0 -93.20375777333155,44.94501612989365,0 -93.20378091121199,44.94496508482194,0 -93.20361724193768,44.9442093530153,0 -93.20349400939119,44.94341075118398,0 -93.20347093971395,44.94339848543734,0 -93.20319401693082,44.94332890010207,0 -93.20315076091481,44.94330436868369,0 -93.20314969241017,44.94323730419421,0 -93.20318160645651,44.94307393777152,0 -93.20324822324224,44.94283706763341,0 -93.20334660163883,44.94257774986022,0 -93.20346514984179,44.9423429505492,0 -93.2035836664798,44.94213674320462,0 -93.20384666402579,44.94172434153824,0 -93.20393631619145,44.94152628702707,0 -93.20397799772468,44.94136374494433,0 -93.20399554184333,44.94114318826182,0 -93.20399869019995,44.94089198830444,0 -93.20384222319271,44.93956879985509,0 -93.20385386845946,44.93946873043893,0 -93.20387998814474,44.93932374336571,0 -93.20393785040496,44.93917264472321,0 -93.20405633267387,44.93899094401412,0 -93.20421807522429,44.93882356162021,0 -93.2043970917439,44.93869295006962,0 -93.20457895553938,44.93859705797188,0 -93.2052399049883,44.93835436897668,0 -93.2053357443659,44.93830715817119,0 -93.20547720940037,44.93821532779861,0 -93.20558117792209,44.93811326670504,0 -93.20565342866972,44.93799280880659,0 -93.20569390970725,44.9379050112879,0 -93.20571422624428,44.93778656924759,0 -93.20571025057933,44.93772038038561,0 -93.20568712320291,44.93760858001787,0 -93.20565106389427,44.9375257276789,0 -93.20555694038768,44.93738103244118,0 -93.20543493998888,44.9372554556321,0 -93.20517641942287,44.93700263644465,0 -93.2049467096995,44.93680424594228,0 -93.20473877174059,44.93663594377311,0 -93.20389771941267,44.93600588773961,0 -93.2038074039685,44.93592875894665,0 -93.20374325940858,44.93586094238651,0 -93.20363557565037,44.93573294817545,0 -93.20353527084431,44.93558023826412,0 -93.20345985492146,44.93540644471318,0 -93.20337335502099,44.93518593522754,0 -93.20331044904548,44.93497503040344,0 -93.20324711980125,44.93475596157676,0 -93.20317209544515,44.93442275072366,0 -93.20286010348842,44.9326929827882,0 -93.20281698376509,44.93241821039128,0 -93.20278999723539,44.93212053823706,0 -93.2027814477086,44.93190004532436,0 -93.20278207605192,44.93168953162119,0 -93.20279392535628,44.93144085730918,0 -93.20289120472668,44.93015737139771,0 -93.20288800624471,44.92997106522437,0 -93.20287131330704,44.92981618031808,0 -93.20265658936661,44.92864654492558,0 -93.20262677771426,44.92846134903324,0 -93.20259400450964,44.92821900371747,0 -93.20256503221405,44.92791554404126,0 -93.20256404921847,44.92772959613036,0 -93.20259104581474,44.9275265719215,0 -93.20264546736976,44.9273514462986,0 -93.20272210259415,44.927159394093,0 -93.20284007094351,44.9269294815845,0 -93.20319886374548,44.92627844415154,0 -93.20328048078648,44.92612002909696,0 -93.20338093745966,44.92588648277403,0 -93.20354752782015,44.92553677236371,0 -93.20390342343656,44.92488580811743,0 -93.20403492497235,44.92469437089682,0 -93.20417742634278,44.92449242881587,0 -93.20434478810337,44.92432458119431,0 -93.20487234843621,44.92392299491742,0 -93.20499795024261,44.92378484539207,0 -93.20506090186896,44.9236074527946,0 -93.20506995704486,44.92339263318158,0 -93.20499349326448,44.92319843166879,0 -93.20488913654668,44.92307852744371,0 -93.20445814883766,44.9226156108474,0 -93.20432380421201,44.92243527554187,0 -93.20423663831515,44.92231287958406,0 -93.20416271982045,44.9221676587302,0 -93.20410673127491,44.92203423367368,0 -93.20406261357775,44.92185145219343,0 -93.2040544606562,44.92169430280644,0 -93.20406639020558,44.921256649312,0 -93.20407103703512,44.92112369102605,0 -93.20406671952071,44.92098483413831,0 -93.20398264862024,44.92038906611982,0 -93.20398248399974,44.92027462555971,0 -93.20401616553529,44.92014499901957,0 -93.20411219804882,44.91999331390982,0 -93.20426907544102,44.91984617663717,0 -93.20442394210457,44.91975958530322,0 -93.20459391313531,44.91969793984223,0 -93.20699502279219,44.91880571723247,0 -93.20728006400303,44.91873698513817,0 -93.20752036818239,44.91869598492927,0 -93.20810200320344,44.91862648444862,0 -93.20831935258964,44.91858812400792,0 -93.2085241125655,44.91852965450519,0 -93.20876176147591,44.91843762917399,0 -93.2089554347792,44.91833244353161,0 -93.20911185146845,44.91823231572299,0 -93.20947778035944,44.91796947652836,0 -93.20967668638282,44.91785393393287,0 -93.20992532986981,44.91775140061063,0 -93.21025583838113,44.91766921337568,0 -93.21059444384255,44.91763177499067,0 -93.21132383320567,44.91761684509951,0 -93.2115723491703,44.91756744768218,0 -93.21185536042067,44.91745992743114,0 -93.21206387642963,44.91730734504042,0 -93.21240310753611,44.91695239132814,0 -93.21268441189702,44.91671137740002,0 -93.21289764569154,44.91656707842883,0 -93.21295228327985,44.91651673548575,0 -93.21298706835208,44.91646943934229,0 -93.21301467459017,44.91641200067542,0 -93.21300541090605,44.91635068199319,0 -93.21292024262522,44.91610316447537,0 -93.21281436035319,44.91590774217719,0 -93.21274683404822,44.91579146145527,0 -93.21264770773577,44.91566120925943,0 -93.21253747853146,44.91553942141097,0 -93.21244592202234,44.91544371403271,0 -93.20955964208517,44.91280337588187,0 -93.20947428262255,44.91271567879523,0 -93.20919182959719,44.91242222328506,0 -93.20912567132203,44.91237081209508,0 -93.20612616289867,44.90973717940722,0 -93.20602682780832,44.90965801870979,0 -93.20590070963243,44.90956320561411,0 -93.2057872837941,44.90949054219443,0 -93.20565603785077,44.90940812392774,0 -93.20548100927115,44.90931898265784,0 -93.2053184866828,44.90924555219394,0 -93.20484970422035,44.90905338602958,0 -93.2047580430184,44.90901081120926,0 -93.20466606201515,44.90896211288398,0 -93.20461826079234,44.90893065824094,0 -93.20416468153401,44.90864204311797,0 -93.20403738190362,44.90857995780505,0 -93.20253404279187,44.90802434990937,0 -93.20211167233151,44.90791204929122,0 -93.20202950380953,44.9078855739505,0 -93.20191489644749,44.90784563618005,0 -93.20178728177839,44.90777742519087,0 -93.20144840646105,44.90758595502929,0 -93.20132975616285,44.90752364202082,0 -93.20125004858797,44.9074889280825,0 -93.20052509522442,44.90719713378471,0 -93.20041604441144,44.90715296353169,0 -93.20033879262941,44.9071132275406,0 -93.20025040816994,44.90705882545384,0 -93.20027158276811,44.90701119595511,0 -93.20025135417282,44.90697660759808,0 -93.19996741408043,44.9067350636962,0 -93.19969848162512,44.90649832863239,0 -93.19956985361824,44.90638763839196,0 -93.19943913360649,44.90624974919437,0 -93.19924450677343,44.90601991294801,0 -93.19917552809864,44.90596588026109,0 -93.19906851299457,44.90588747627781,0 -93.19882609695901,44.90576453232783,0 -93.19875201753192,44.9057233828153,0 -93.19870365154712,44.90567069412364,0 -93.19864644542298,44.90557631698965,0 -93.1984925797989,44.90521804801206,0 -93.19845623697964,44.90511068006343,0 -93.19844153230659,44.90499859572877,0 -93.19848396241309,44.90408556096028,0 -93.19850454108632,44.90227450335442,0 -93.1984334983094,44.90151663811729,0 -93.1982552326468,44.90119427899182,0 -93.19820064692836,44.90108988925848,0 -93.19811421743904,44.90086937399488,0 -93.19722120097192,44.89806929854412,0 -93.197135436933,44.89784294182165,0 -93.19701721855246,44.89762120804279,0 -93.19683628058921,44.89735818625861,0 -93.19662706161644,44.89710611719698,0 -93.19637856505791,44.89687550397766,0 -93.19594433281887,44.89657265197018,0 -93.19555062472223,44.89632332465338,0 -93.19512287633552,44.89608509804842,0 -93.19456221424227,44.89578696449896,0 -93.19390778070904,44.89546060372758,0 -93.19350895801037,44.89527982364277,0 -93.19320054368824,44.89517337633202,0 -93.19287632132792,44.89509594926045,0 -93.19255048450008,44.89504308692114,0 -93.19230433341252,44.89502494355143,0 -93.19105425229708,44.89495106857166,0 -93.19086776024835,44.89491502748718,0 -93.19072384999402,44.89486562054119,0 -93.19058679154897,44.89478129366964,0 -93.19026443712951,44.8945453870298,0 -93.19006438451197,44.89452604492089,0 -93.18999481935575,44.8945196721101,0 -93.18993048955161,44.89450294542903,0 -93.18988312975004,44.89447964826266,0 -93.18934896466375,44.89419102262667,0 -93.18928421586527,44.89416613133,0 -93.1882370527682,44.8939990964517,0 -93.1881862520855,44.89398972165365,0 -93.18781907930102,44.89386230133587,0 -93.18717287469769,44.89375027523312,0 -93.18649309222936,44.89315476915802,0 -93.1864782260392,44.89312118269698,0 -93.18633602487522,44.89293684645557,0 -93.18621731676086,44.89287247716323,0 -93.18606719375453,44.8928702295331,0 -93.18581117227625,44.892940204477,0 -93.18571427289547,44.89296314707868,0 -93.18561621649715,44.89296363950079,0 -93.18458568706772,44.89300663642572,0 -93.18429161750333,44.89301015195661,0 -93.18400503549856,44.89299099284573,0 -93.18384254468823,44.892972712849,0 -93.18368840974665,44.89293785424458,0 -93.18347107957344,44.89291894749166,0 -93.18343011613918,44.89290774432685,0 -93.18281875177044,44.89267996010101,0 -93.18279571440631,44.89266180213274,0 -93.18281112277833,44.89262370035657,0 -93.18292656629275,44.8924568011795,0 -93.18331123828496,44.89203053118103,0 -93.18377547978967,44.89143734360945,0 -93.18388578114998,44.89128314542506,0 -93.18388583343702,44.89123051790354,0 -93.18387050719238,44.89118695657155,0 -93.1838294753958,44.89114441013982,0 -93.18379873047219,44.89115165388839,0 -93.18347828647208,44.89139829755673,0 -93.18328349072095,44.89151434345013,0 -93.18311177665041,44.89160136338629,0 -93.18292730420689,44.8916393806694,0 -93.18280432944086,44.89165746623867,0 -93.18268877822551,44.89165493751833,0 -93.18262855110444,44.89164740945241,0 -93.18255877495071,44.89162044565733,0 -93.18234281032038,44.89153518332637,0 -93.18219763366514,44.89149654089115,0 -93.18207535640492,44.89148758736572,0 -93.18196674083113,44.89149493517579,0 -93.18191662660919,44.89151240716451,0 -93.18128401900903,44.89180278662267,0 -93.18110105687738,44.89186050311131,0 -93.18048738302478,44.89198504022965,0 -93.1801220713234,44.89202929434686,0 -93.17971810703318,44.89207000320342,0 -93.17964127150979,44.89207198655293,0 -93.17959528443571,44.89205046305885,0 -93.1795437846732,44.89200485727282,0 -93.17953427156557,44.89194454142661,0 -93.17955537358726,44.89185618278288,0 -93.17964430679963,44.89175698918772,0 -93.17976801043426,44.89166901037267,0 -93.17991286630439,44.89161833626586,0 -93.18037285292525,44.89150350747586,0 -93.18063415934756,44.89143165760073,0 -93.18083368968998,44.89135521078792,0 -93.18100062115803,44.89127671226507,0 -93.18122963511648,44.89115875952987,0 -93.18151021466751,44.89100465202806,0 -93.18178717951143,44.89082187075344,0 -93.18197365960468,44.89070804352221,0 -93.18205692855089,44.89066501361903,0 -93.18211796580992,44.89064678247544,0 -93.18223817245894,44.89057403151546,0 -93.18236218046866,44.89049209790709,0 -93.18247658615245,44.89039323352392,0 -93.18253901197848,44.89031894694531,0 -93.18256038719387,44.89027751574879,0 -93.18267434576534,44.89020795381659,0 -93.18277344210598,44.89014028988302,0 -93.182872382431,44.89006960185982,0 -93.18292510245092,44.88997285554468,0 -93.18300757634408,44.88983048439106,0 -93.18313289244827,44.88969098224427,0 -93.1832657779793,44.88957399520108,0 -93.18342950798542,44.88943350051729,0 -93.18357173923501,44.88929053339691,0 -93.18368991661082,44.88917846855565,0 -93.18395859426154,44.88895955903791,0 -93.18410727189125,44.88885881742894,0 -93.18428733894325,44.88874515165251,0 -93.18457620440381,44.88847411798968,0 -93.1846082482342,44.88843241049206,0 -93.18467255391352,44.8882702601287,0 -93.18471743363202,44.88818734188304,0 -93.18478477631314,44.88808416038275,0 -93.18510030185631,44.88777925067092,0 -93.18518033942601,44.88771510550728,0 -93.18523845955458,44.88768180753706,0 -93.18529798176789,44.88767572602895,0 -93.18539459415781,44.88764294657247,0 -93.18567433496651,44.88726127216657,0 -93.18588755252429,44.88687876237953,0 -93.18597392536503,44.88668878785723,0 -93.18600107661848,44.88663509373783,0 -93.18603493010815,44.88658079119352,0 -93.18610526346136,44.88649427160652,0 -93.18621749617009,44.88639144136965,0 -93.18664028423382,44.88605347117287,0 -93.18708090715602,44.8855960355389,0 -93.18754339365439,44.8849920776039,0 -93.18810455589728,44.88411668215279,0 -93.18819734014527,44.88400981151845,0 -93.1884147909703,44.88375133699093,0 -93.18844201585252,44.8836991546554,0 -93.18866770920624,44.88328951814478,0 -93.18894574725609,44.8828387057462,0 -93.18899566451462,44.88277079542518,0 -93.18946325788694,44.88208327298248,0 -93.19001741012637,44.88125002069548,0 -93.19006128486814,44.88118965708667,0 -93.19044972363076,44.88047707904777,0 -93.19070055350829,44.88001627808131,0 -93.19075457776593,44.87994523234489,0 -93.19090975307697,44.8797640687083,0 -93.19096065519459,44.87963254243739,0 -93.1909996392599,44.87947710034309,0 -93.19099308064543,44.87920454117351,0 -93.19098925653235,44.87913045221753,0 -93.19099524304338,44.87903945463906,0 -93.1910206679639,44.87895249549125,0 -93.19128849805178,44.87811127990651,0 -93.19133684733738,44.87801312832181,0 -93.19159868092663,44.87749762417382,0 -93.19186818104161,44.87698592162351,0 -93.19195696508754,44.87680193476155,0 -93.19207673959751,44.87647331059473,0 -93.19220934219537,44.87610347421106,0 -93.19259095287555,44.8749850541476,0 -93.19263381873135,44.87487903245976,0 -93.19273816942547,44.87473501858651,0 -93.19287530396578,44.8745237819309,0 -93.19288888057993,44.87443564734164,0 -93.19283997886817,44.87436626149014,0 -93.19273809225214,44.87432394230125,0 -93.19260132408306,44.87430822013159,0 -93.19132483920838,44.8742616401489,0 -93.1912890743008,44.87427113129696,0 -93.19112353235559,44.8743417937127,0 -93.19106977457334,44.87435389215315,0 -93.19101782012835,44.8743423926616,0 -93.19076680677371,44.87422043734645,0 -93.19072615398933,44.87417356731994,0 -93.19070753695688,44.87410553717812,0 -93.19067539039085,44.87354114190875,0 -93.19063561554084,44.87353146763817,0 -93.1900919361303,44.8735926585619,0 -93.19002978920338,44.87361781996411,0 -93.18998405177173,44.87366824830771,0 -93.18966542507486,44.87422674352075,0 -93.18941534496999,44.87470852781728,0 -93.18932990131101,44.8748092290538,0 -93.18923776116007,44.87489725711654,0 -93.18890037308022,44.87503433189961,0 -93.18881562909961,44.87509005249483,0 -93.1887143252945,44.87517617608029,0 -93.18806866906817,44.87577966998958,0 -93.1876383485168,44.87615887828054,0 -93.18717239977858,44.87655632254874,0 -93.18701699910838,44.87664812683709,0 -93.18673092726205,44.87678399278527,0 -93.18638396576597,44.87693476867477,0 -93.18593403154445,44.87711555047278,0 -93.18538106520757,44.87729043136031,0 -93.18481591637318,44.87746348375421,0 -93.18346749740755,44.87784947582302,0 -93.18311908422916,44.87794840510298,0 -93.1827684214245,44.87806237936383,0 -93.18264921823904,44.87815324258435,0 -93.18233024253532,44.87855460914983,0 -93.18199130293242,44.87895517122128,0 -93.18188665152263,44.87915270654921,0 -93.18182600409222,44.87938336116423,0 -93.18185011279802,44.87955830102996,0 -93.18193347135522,44.87971030015059,0 -93.18225913888877,44.88009257535728,0 -93.18260246355244,44.88036417561229,0 -93.1829560551073,44.88065906047694,0 -93.18301230665928,44.88075395352237,0 -93.18307462028284,44.88101975376761,0 -93.18315203906866,44.88205400498327,0 -93.18319687616938,44.88222067918893,0 -93.18348057460062,44.88344656919398,0 -93.18355765730696,44.88361678762583,0 -93.18377464125624,44.88413358761528,0 -93.18404712338449,44.88497203233069,0 -93.18412769592295,44.8851283841751,0 -93.18427957104694,44.88534132782101,0 -93.18454087597293,44.88554938068476,0 -93.18472133090009,44.88568938065588,0 -93.18485184356324,44.88576053375397,0 -93.18526862828517,44.88586373797085,0 -93.18548181354902,44.88593383371331,0 -93.18570918174038,44.88608357896803,0 -93.18584729149414,44.88624220854452,0 -93.18590529805083,44.88640729400402,0 -93.1858754860956,44.88648916624727,0 -93.18582204129186,44.88665275085951,0 -93.18568772683422,44.88692802338081,0 -93.18545607756474,44.88729568271167,0 -93.18526619046571,44.88751321123424,0 -93.18494744569502,44.88785820260991,0 -93.18461809034005,44.88819112268923,0 -93.18422267376924,44.88856301283972,0 -93.18313115035473,44.88953921432583,0 -93.18302532786224,44.88964716114463,0 -93.18275729375795,44.88996972439134,0 -93.18246830895257,44.89037837072734,0 -93.18239995190626,44.89044253098998,0 -93.18231192044405,44.89051548673337,0 -93.18221910408222,44.89057301608289,0 -93.18215537904897,44.89061424391223,0 -93.18211070916891,44.89063801592006,0 -93.18203977061874,44.89065539835607,0 -93.18193307750022,44.8907146995473,0 -93.18177055691353,44.8908136106578,0 -93.18149446028622,44.89099320480232,0 -93.18121897381911,44.89114592406706,0 -93.18098235773718,44.89126412494279,0 -93.18081631536512,44.89133343936197,0 -93.18062067213813,44.89140917229483,0 -93.18036908640289,44.89148352193237,0 -93.17990616357687,44.89160008102881,0 -93.17975127714227,44.89165355620854,0 -93.17961842323163,44.89174745789764,0 -93.17953198306388,44.89185147070379,0 -93.17951293372664,44.89194667602228,0 -93.17950921152581,44.89201859647832,0 -93.17946664487647,44.89208330825357,0 -93.17928154947489,44.89224782506437,0 -93.1791754709724,44.8923579983791,0 -93.17912598476462,44.89246666436004,0 -93.17911925476777,44.89256861920158,0 -93.17917021032953,44.89270583962983,0 -93.17924326472608,44.89280714901921,0 -93.17938270239682,44.89295763564797,0 -93.17952858731506,44.89307826961671,0 -93.179681718049,44.89318458022715,0 -93.17986231316866,44.89328170012018,0 -93.18007786676175,44.89338334701701,0 -93.18032400838713,44.89347453329278,0 -93.1805330451178,44.89354264519501,0 -93.18071406932005,44.89357048475377,0 -93.18091480408985,44.89359357416488,0 -93.18142174958412,44.8936342006475,0 -93.18255462718082,44.89368709062361,0 -93.18331636419254,44.89371547168583,0 -93.1842367845386,44.89375219020365,0 -93.18507077569817,44.89378858702157,0 -93.18574771944682,44.89384642118854,0 -93.18637634914573,44.89392487507745,0 -93.18765735466582,44.89420279513724,0 -93.18771801356319,44.89421818888489,0 -93.18956744839504,44.89493432021969,0 -93.18984126808084,44.89501899205813,0 -93.1900976403993,44.89507596548688,0 -93.19096934549918,44.89526260275982,0 -93.19125043824923,44.89533448412908,0 -93.1916555248507,44.89545842967522,0 -93.19210300009266,44.89562212388989,0 -93.1925036681719,44.89580682009186,0 -93.19285317996001,44.89600556392045,0 -93.1931547923664,44.89620413553461,0 -93.19346931418393,44.89642075005169,0 -93.19370984543313,44.89662705355563,0 -93.19393954940621,44.89686282866261,0 -93.19438995195434,44.89746890602618,0 -93.19453075609765,44.8977415726378,0 -93.19464589781568,44.89800010862849,0 -93.19477220700925,44.89847464110199,0 -93.1948552508441,44.89884568826976,0 -93.19548301872798,44.90204769152485,0 -93.1954993799741,44.90209391753106,0 -93.19569861728149,44.90259024209149,0 -93.19579337452854,44.90276307437446,0 -93.19595364434692,44.90300630242125,0 -93.19611622289712,44.90321695738291,0 -93.19630314061651,44.90338898311281,0 -93.19655680026403,44.90362413234511,0 -93.19687414870657,44.90389438203457,0 -93.19746470815878,44.90442499242899,0 -93.19763558354394,44.90460291696071,0 -93.1979085437608,44.90494075844689,0 -93.19829021765246,44.90539901940216,0 -93.19859426434354,44.90569378327459,0 -93.19864641980468,44.90572371027756,0 -93.19870662681571,44.90574052540021,0 -93.19902828481978,44.90588116524973,0 -93.19919958269001,44.90601269066971,0 -93.19928006795274,44.90608876319428,0 -93.19941709590013,44.90625627725892,0 -93.19955225447423,44.90639549713371,0 -93.1996813074049,44.90650682354654,0 -93.19997857120055,44.90676685915378,0 -93.20023615366416,44.90698381012593,0 -93.20024776513884,44.90700321472913,0 -93.20023429132284,44.90707268636645,0 -93.20023953647437,44.90708162748761,0 -93.20030830640332,44.90713027174989,0 -93.20038617104638,44.90716924379395,0 -93.20123418109181,44.90751051354326,0 -93.20131588929017,44.90754655866471,0 -93.20189625651445,44.90785929201337,0 -93.20199014398035,44.90789926044853,0 -93.20207119347698,44.90792259883121,0 -93.20249844035952,44.90804013120849,0 -93.20402269177104,44.90860411203549,0 -93.20414906512895,44.90866494487968,0 -93.20459699636237,44.90895015530362,0 -93.20466925297636,44.90899633869019,0 -93.20474483730057,44.9090297128457,0 -93.20530375754083,44.90926114078463,0 -93.20546754781044,44.90934028278339,0 -93.20562764526945,44.90942517544307,0 -93.20576161008106,44.90950650738619,0 -93.20587933557349,44.9095826074995,0 -93.20599543477354,44.90966581831422,0 -93.20608960746296,44.90974960002615,0 -93.20909773795761,44.91238106516748,0 -93.20915848266291,44.91243602831911,0 -93.20944108838465,44.91272694540788,0 -93.20953852149796,44.91282153915456,0 -93.21242271590208,44.91545309510656,0 -93.21251535277999,44.91554539309904,0 -93.21261566002514,44.91567000512406,0 -93.21271212770279,44.91579754488472,0 -93.21276113108124,44.9158765773365,0 -93.21298162141397,44.91635429214292,0 -93.21298862025242,44.91641206914086,0 -93.21295582080468,44.91647229816741,0 -93.21288979134876,44.91654611702182,0 -93.21247588369474,44.91683914611471,0 -93.21234782053496,44.9169485103299,0 -93.21210969763965,44.91720635128244,0 -93.21201434933322,44.91729224379406,0 -93.2118351722152,44.91742023670162,0 -93.21155935819051,44.91752921243173,0 -93.21132239909564,44.91757921488284,0 -93.21109726587434,44.91758791277704,0 -93.21048883945507,44.91759670808536,0 -93.21024863510864,44.91762276138036,0 -93.20990286349547,44.91770697802091,0 -93.20965111421201,44.91781814940831,0 -93.20944388476832,44.91794088259949,0 -93.20904550648922,44.91822692418656,0 -93.20892785504799,44.91830632649754,0 -93.20873170377313,44.91841180597819,0 -93.20850447282714,44.91849547665513,0 -93.20830191159035,44.91855447239653,0 -93.20809448195999,44.91859663096557,0 -93.20740484368966,44.91867389726021,0 -93.20723876865068,44.91870508117733,0 -93.20695748623612,44.91878591491518,0 -93.20448188319803,44.919700847754,0 -93.20438638853771,44.91974574166869,0 -93.2042367538596,44.91982455805146,0 -93.204069761052,44.91996425315727,0 -93.20397288179846,44.92013641067258,0 -93.20393604989985,44.92027307898312,0 -93.20393415302054,44.92039046135218,0 -93.20402811948854,44.92098381865649,0 -93.20403330289341,44.92112222110183,0 -93.20401075405431,44.92169238543172,0 -93.20402102367821,44.9218518603303,0 -93.20406864629166,44.92203863702162,0 -93.20412205231411,44.92216807189534,0 -93.20419347127663,44.92231323301113,0 -93.20428018166403,44.92244527349788,0 -93.20441908149699,44.92262119289777,0 -93.20485016195974,44.92308885884459,0 -93.20495401343649,44.92320490283836,0 -93.2050317678801,44.92339513541282,0 -93.20502444723083,44.92360030477934,0 -93.20495821760851,44.92376914763393,0 -93.20484355306495,44.92390642696412,0 -93.20472588425172,44.92398582503136,0 -93.20425448520952,44.9243472581402,0 -93.20414640118818,44.92445750681516,0 -93.20406431021146,44.92456849318158,0 -93.2039089117325,44.92481632318118,0 -93.20381959294086,44.92497295874807,0 -93.20361561181488,44.92535146365308,0 -93.20335174413872,44.92588420171785,0 -93.20324465843564,44.92610493034915,0 -93.20312078721078,44.92633433392452,0 -93.20279580065621,44.9269164591814,0 -93.20267450564299,44.92715710468497,0 -93.20259650854305,44.92734714751774,0 -93.2025494936584,44.92752296980142,0 -93.20251646142462,44.92773304744122,0 -93.20252007012634,44.92791814053414,0 -93.20255168928277,44.92821983774001,0 -93.20258422174648,44.92846213876245,0 -93.20261796040103,44.92865069051408,0 -93.20282666555306,44.92981464338976,0 -93.20283980968696,44.9299749348089,0 -93.20284940085917,44.93015987246711,0 -93.20284023370986,44.93031217479205,0 -93.20274297866736,44.93143996238622,0 -93.20273761289805,44.93169023424962,0 -93.20274475430151,44.9319049219414,0 -93.20275048748427,44.9321309555007,0 -93.20278004320029,44.93243129351635,0 -93.20282135949938,44.93271215952515,0 -93.20313586449245,44.93442043944005,0 -93.20321090737816,44.93475069504713,0 -93.20327989449058,44.93498153100007,0 -93.2033407364209,44.93519199552232,0 -93.20342823644606,44.9354159031387,0 -93.20350497685872,44.93558637214066,0 -93.20360292225057,44.9357421535263,0 -93.20371557722785,44.93587352068884,0 -93.20378527068374,44.93594663187704,0 -93.20387091864173,44.9360193283044,0 -93.20470499054201,44.93665325611515,0 -93.20491336011646,44.93682030088928,0 -93.20514357983156,44.93702353230406,0 -93.20539002159481,44.93726948896473,0 -93.20551450287378,44.93739771943719,0 -93.20561135758368,44.93753232337855,0 -93.20564530419969,44.93760919090111,0 -93.20567103863409,44.93772019982691,0 -93.20566649660727,44.93778659068384,0 -93.20565056954557,44.93790292378967,0 -93.20561692853931,44.93798579031057,0 -93.20554885528837,44.93809782547457,0 -93.20545190809688,44.93819223442429,0 -93.20531514691048,44.93828909270752,0 -93.2052237578061,44.9383367067055,0 -93.20456568811704,44.93856932390474,0 -93.2043733022423,44.93867186850626,0 -93.20418843727484,44.93880390372238,0 -93.20401936333704,44.938970869278,0 -93.20389867902728,44.93916171018922,0 -93.20383892833925,44.93931876441856,0 -93.20380858031723,44.93946515879775,0 -93.20379782627923,44.93956580724588,0 -93.20395464598911,44.94089159275148,0 -93.20395351164947,44.94113911820803,0 -93.20393709159124,44.94136148683169,0 -93.20388738433262,44.94151969361011,0 -93.20380759664398,44.94171402389698,0 -93.20354494030261,44.9421286577016,0 -93.20341373350352,44.9423328057688,0 -93.20330053238145,44.94257606810206,0 -93.20320193594058,44.94283136662976,0 -93.20314199883666,44.94306193497909,0 -93.20310727442558,44.94323954356757,0 -93.20308331968646,44.9434726369675,0 -93.20308085712958,44.94369464282592,0 -93.20309599608672,44.94387095489805,0 -93.20313646131964,44.94407346838917,0 -93.20319211173546,44.94429854249208,0 -93.20339080979261,44.94501009532147,0 -93.20363923981023,44.9458597909827,0 -93.20376290444496,44.94620291881845,0 -93.20389464290435,44.94654400311523,0 -93.20403547321415,44.94683296624897,0 -93.20417707076794,44.94705970991451,0 -93.20452290841531,44.94751422289733,0 -93.20522836054049,44.9485349106174,0 -93.20529997698037,44.94864472591519,0 -93.2053960127864,44.94884013883713,0 -93.20558094534908,44.94943879065987,0 -93.20562419738877,44.94954086167772,0 -93.20569382123748,44.94965072871613,0 -93.20587037162827,44.94985441224265,0 -93.20601438878319,44.94997365265147,0 -93.20628404741748,44.9501659612158,0 -93.20650474867001,44.95030017041558,0 -93.20660734814521,44.95035263340437,0 -93.20903064164146,44.95154588564387,0 -93.20940848043448,44.95174385352495,0 -93.20993246914551,44.95203363217783,0 -93.21062763802689,44.95245657970352,0 -93.21232761328382,44.95361290735128,0 -93.21252274636501,44.9537613006453,0 -93.21275690350952,44.95396158846221,0 -93.21292716296438,44.95412396013003,0 -93.21304756143596,44.95424946343016,0 -93.21317954932965,44.95439042032277,0 -93.21381882504245,44.95515832393178,0 -93.21393428121964,44.95526557733228,0 -93.21404287083109,44.95535604621727,0 -93.21420303531959,44.95543951535186,0 -93.21623084437921,44.95646945092657,0 -93.2170559559021,44.95691157806024,0 -93.21782955323745,44.95738050344544,0 -93.21802244018325,44.95751737300019,0 -93.21867574731014,44.9580544606892,0 -93.21890950339054,44.9582462667496,0 -93.22026177424223,44.95924219253379,0 -93.22057895437787,44.95950108459631,0 -93.22145813884484,44.96036414451405,0 -93.22180443683347,44.96068305908651,0 -93.22209471427894,44.9609296238955,0 -93.22247767177845,44.96122354487493,0 -93.22334364914789,44.96187950043954,0 -93.22376348491217,44.9622671671324,0 -93.22411985544122,44.96258722384928,0 -93.22457168175653,44.96305207177858,0 -93.22575333696392,44.96429531909912,0 -93.22645768974238,44.96503467020823,0 -93.22683907429284,44.96544140248787,0 -93.2272050045605,44.96578450422861,0 -93.22734053390204,44.96589263312974,0 -93.2275570567474,44.96605942762266,0 -93.22768874452152,44.96617048441239,0 -93.22797915673047,44.96636609611718,0 -93.22839299900036,44.96663798476074,0 -93.22850251969835,44.96670721145554,0 -93.22872052698942,44.96682590042467,0 -93.22896388227258,44.96693261761511,0 -93.22915314390681,44.96699833818119,0 -93.22948257907162,44.96711648304265,0 -93.22999679278853,44.96728253896122,0 -93.23032913652678,44.96737136717192,0 -93.23219743579868,44.96782819117849,0 -93.23330021975575,44.96809188111176,0 -93.23426784428757,44.96829266762954,0 -93.23478296021568,44.96839930551704,0 -93.2353428636559,44.96849822365706,0 -93.23637050758973,44.9686620742222,0 -93.23685325730926,44.96876107005219,0 -93.23727519099852,44.96888145409113,0 -93.23765264325117,44.96902986641639,0 -93.23810083435818,44.96923129797933,0 -93.23851088940609,44.96942974090461,0 -93.23891932101624,44.9696352929674,0 -93.23929243108104,44.96985308204229,0 -93.23965276374938,44.97009382567411,0 -93.23993011289328,44.97031183902073,0 -93.24023473403251,44.97059504127954,0 -93.24046980675082,44.97084755862488,0 -93.24065621497938,44.97108605603392,0 -93.24085929770082,44.97137616911289,0 -93.24097943839895,44.97157092140057,0 -93.24108650249599,44.97178298202598,0 -93.24122219945724,44.97214161620881,0 -93.24129017991655,44.97240842415371,0 -93.2413446377102,44.97268406955549,0 -93.24138940780202,44.97305679907256,0 -93.24140230619437,44.97322609846481,0 -93.24141964343781,44.97374586999954,0 -93.24143497472872,44.97388542061857,0 -93.24146877662936,44.97399621106229,0 -93.24151966542155,44.97416592636055,0 -93.24159280253748,44.97431514922584,0 -93.24165883093794,44.97443074593922,0 -93.24185248107476,44.97476916996856,0 -93.24190254631337,44.97488518860536,0 -93.24192550663936,44.97497979851238,0 -93.24193691299732,44.97508269594011,0 -93.24191684464553,44.97523307276151,0 -93.24181043228317,44.9756415954088,0 -93.24173302713781,44.97587971548182,0 -93.24173291804181,44.9761687746732,0 -93.24178523760197,44.9764416491247,0 -93.24185794167649,44.97664613109826,0 -93.2419673757891,44.97682702790508,0 -93.24207221634114,44.976958567347,0 -93.24226413345325,44.97711184762686,0 -93.2424636007373,44.97723254776363,0 -93.24269453254641,44.97732966673176,0 -93.2429482991318,44.97740497916746,0 -93.24308970451347,44.97743377069528,0 -93.24326429411576,44.97744755216652,0 -93.24417418754446,44.97743379172407,0 -93.24444849662186,44.97744353282048,0 -93.24605378254658,44.9777193165761,0 -93.24612843993103,44.97773289937062,0 -93.24627923246328,44.97775013063782,0 -93.24642314600423,44.97775057896733,0 -93.24657559288239,44.97774019986928,0 -93.24671232914113,44.97771821799679,0 -93.24732503043849,44.97755080373394,0 -93.24749531839545,44.9775208682009,0 -93.24771262365444,44.97751089770912,0 -93.24873117266787,44.97756320258218,0 -93.24891359760193,44.97757394119448,0 -93.24914103020835,44.97756652822299,0 -93.24973240759579,44.97752548048046,0 -93.2499131675275,44.97751767270292,0 -93.25072536123564,44.97757116366094,0 -93.25103604725692,44.97762657856259,0 -93.25134706943656,44.97773901949515,0 -93.25199891873676,44.97808653734383,0 -93.25223593168181,44.9781848907521,0 -93.25244942843777,44.9782541776902,0 -93.25278955466091,44.97833274996069,0 -93.25310356622933,44.9783753483796,0 -93.25342045180899,44.97839666503913,0 -93.25376466333184,44.97840666803154,0 </coordinates>
+				</LineString>
+			</Placemark>
+			<Folder>
+				<name>Marathon Splits</name>
+				<visibility>0</visibility>
+				<Placemark>
+					<name>Marathon Start</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>-93.25832410128041</longitude>
+						<latitude>44.97881546655195</latitude>
+						<altitude>0</altitude>
+						<range>106.4100365260503</range>
+						<tilt>0</tilt>
+						<heading>-0.02120935272908694</heading>
+						<altitudeMode>relativeToGround</altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ltblu-diamond11</styleUrl>
+					<Point>
+						<coordinates>-93.258000045212,44.9788430802358,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>1 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ltblu-diamond0</styleUrl>
+					<Point>
+						<coordinates>-93.26137441524521,44.9819765019301,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>2 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ltblu-diamond0</styleUrl>
+					<Point>
+						<coordinates>-93.2746086116492,44.9915018454061,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>3 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ltblu-diamond0</styleUrl>
+					<Point>
+						<coordinates>-93.2685986448533,44.9979513777448,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>4 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ltblu-diamond0</styleUrl>
+					<Point>
+						<coordinates>-93.25927426068542,44.9870791804128,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>5 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ltblu-diamond0</styleUrl>
+					<Point>
+						<coordinates>-93.2566220645346,44.9803459060593,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>6 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ltblu-diamond0</styleUrl>
+					<Point>
+						<coordinates>-93.2426737325201,44.9772885469183,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>7 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ltblu-diamond0</styleUrl>
+					<Point>
+						<coordinates>-93.23114002941658,44.967536749397,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>8 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ltblu-diamond0</styleUrl>
+					<Point>
+						<coordinates>-93.2174401818054,44.957101525131,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>9 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ltblu-diamond0</styleUrl>
+					<Point>
+						<coordinates>-93.20399976336839,44.9466823548659,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>10 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ltblu-diamond0</styleUrl>
+					<Point>
+						<coordinates>-93.2030545368057,44.9337709737769,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>11 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ltblu-diamond0</styleUrl>
+					<Point>
+						<coordinates>-93.2041713194605,44.9199378631967,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>12 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ltblu-diamond0</styleUrl>
+					<Point>
+						<coordinates>-93.2072723090977,44.9107435203368,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>13 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ltblu-diamond0</styleUrl>
+					<Point>
+						<coordinates>-93.1976376166417,44.8993749802837,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>14 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ltblu-diamond00</styleUrl>
+					<Point>
+						<coordinates>-93.1832926329337,44.8920511484944,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>15 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ltblu-diamond0</styleUrl>
+					<Point>
+						<coordinates>-93.1879705141457,44.8843257830696,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>16 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ltblu-diamond0</styleUrl>
+					<Point>
+						<coordinates>-93.1894307358484,44.8746788769835,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>17 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ltblu-diamond0</styleUrl>
+					<Point>
+						<coordinates>-93.1849830077557,44.8857930126262,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>18 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ltblu-diamond0</styleUrl>
+					<Point>
+						<coordinates>-93.1861283312241,44.8938939220847,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>19 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ltblu-diamond0</styleUrl>
+					<Point>
+						<coordinates>-93.1974142139258,44.9043796239825,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>20 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ltblu-diamond0</styleUrl>
+					<Point>
+						<coordinates>-93.21141885785562,44.9145371691158,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>21 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ltblu-diamond0</styleUrl>
+					<Point>
+						<coordinates>-93.20426803088689,44.92433687234,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>22 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ltblu-diamond0</styleUrl>
+					<Point>
+						<coordinates>-93.2056077750304,44.9380008551833,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>23 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ltblu-diamond0</styleUrl>
+					<Point>
+						<coordinates>-93.20761093577559,44.9508468092808,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>24 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ltblu-diamond0</styleUrl>
+					<Point>
+						<coordinates>-93.22206998707711,44.9609086203422,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>25 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ltblu-diamond0</styleUrl>
+					<Point>
+						<coordinates>-93.23784466985441,44.9691161693755,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>26 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ltblu-diamond0</styleUrl>
+					<Point>
+						<coordinates>-93.2495952462901,44.9775350009018,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Finish</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_red-diamond</styleUrl>
+					<Point>
+						<coordinates>-93.25376466333181,44.9784066680315,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>2009 Minneapolis Half Marathon</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>Half Marathon Course</name>
+				<visibility>0</visibility>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+-93.25899759479484,44.97925495035482,0 -93.25241294439591,44.97647767058622,0 -93.25234076535725,44.97648991661318,0 -93.25202888205139,44.97686566397077,0 -93.25149745679487,44.97772949693862,0 -93.25149744534879,44.97776421717991,0 -93.25153497625725,44.97779281204051,0 -93.25182063303384,44.97796362055199,0 -93.25204869388759,44.97807801329267,0 -93.25239223866596,44.97820262872297,0 -93.25270692029197,44.97828639434675,0 -93.25322370272578,44.97836405177369,0 -93.25441319045437,44.97842338704539,0 -93.25487800918734,44.97848878014765,0 -93.2552850752673,44.97863585901042,0 -93.25616523257078,44.97903557692941,0 -93.25840343545083,44.9799927564962,0 -93.25893078642076,44.98041319878267,0 -93.25944757300792,44.98073794442591,0 -93.25957171774685,44.98082576858288,0 -93.26000477304002,44.98126079132123,0 -93.26020398642409,44.9813935479091,0 -93.26056200172474,44.98155286039381,0 -93.26132914537988,44.98194541185663,0 -93.26162653106164,44.98214964799947,0 -93.26215490244645,44.98265002295204,0 -93.2643283510392,44.98422454067043,0 -93.26445149803283,44.98428463424143,0 -93.26506652425552,44.98456850908128,0 -93.2652455492166,44.98473189069213,0 -93.26538703834065,44.98488301900238,0 -93.26572777447595,44.98530168732881,0 -93.26582073475592,44.98539146797587,0 -93.26656861885627,44.98605928119221,0 -93.26661193402882,44.98611646423742,0 -93.26754729967954,44.98772054239351,0 -93.26767713454605,44.98793817352421,0 -93.26780130852733,44.98805049515583,0 -93.26798034787153,44.98816485717318,0 -93.26811029549192,44.98822203712805,0 -93.26877447281605,44.98850384868395,0 -93.26882645278676,44.98853448090625,0 -93.26910656974754,44.98873665494566,0 -93.26955998475272,44.98922270417675,0 -93.26970498395946,44.98937570984433,0 -93.26992735225977,44.98954520838547,0 -93.27015838274416,44.98968815663956,0 -93.27040096238032,44.98979842760299,0 -93.27157383603941,44.990175310199,0 -93.27176154419479,44.99022227074524,0 -93.27207919602235,44.99023450367078,0 -93.27240261788974,44.99020384750669,0 -93.27317361914705,44.99003019759089,0 -93.27352754396451,44.99002394903028,0 -93.27384231414222,44.9900790648937,0 -93.27415998887076,44.99023016670356,0 -93.27439682039891,44.99044662785829,0 -93.27452391814657,44.99065492958448,0 -93.27454706204833,44.99088774840787,0 -93.2745588486805,44.99138102199373,0 -93.27462529657655,44.99154235604892,0 -93.27472350694562,44.99168326448709,0 -93.27497767989144,44.99193444196961,0 -93.27531152838682,44.99222004947754,0 -93.27534331476795,44.99232624501844,0 -93.27536932714071,44.99244061032486,0 -93.27535786407421,44.99290421114571,0 -93.2753890207099,44.99302951179993,0 -93.27609662991017,44.99468593966393,0 -93.27642748460144,44.99551917861592,0 -93.27688252685071,44.9974646677724,0 -93.27705605366121,44.99853072254874,0 -93.2770820577914,44.99857973457666,0 -93.2771148250059,44.99861829349023,0 -93.27736904844457,44.99889805833715,0 -93.27738061494203,44.99895728342827,0 -93.27733152319394,44.9989899655157,0 -93.27727087675611,44.99901447969827,0 -93.2771697914028,44.99902061767948,0 -93.27424404264552,44.99888611728056,0 -93.2696794130477,44.9986373387332,0 -93.26914281392989,44.99862919066428,0 -93.26908793715735,44.99860877017439,0 -93.26905327690025,44.99858017966742,0 -93.26505516233407,44.99305038443367,0 -93.26496852424455,44.9929748200665,0 -93.26484723129116,44.99289108639464,0 -93.2628654028683,44.99199918490603,0 -93.26278165763864,44.99194199990877,0 -93.26267192335057,44.99184192649123,0 -93.2626008345643,44.9917692597847,0 -93.26255174382564,44.99170390574928,0 -93.26127506687352,44.99014242813054,0 -93.26123464018409,44.99011587736344,0 -93.26117111055226,44.99011179103761,0 -93.25994669439355,44.99037520620352,0 -93.25990049004948,44.99037928910084,0 -93.25985428771514,44.99035886450152,0 -93.25866198688729,44.98858245012418,0 -93.25865621508621,44.98854773102216,0 -93.25868220689863,44.98851914032275,0 -93.2593406241198,44.98813930676148,0 -93.25968138561554,44.98786565579384,0 -93.25971603985818,44.98782889614926,0 -93.25971698794554,44.98780693478837,0 -93.25901251863022,44.98664892923302,0 -93.25881550457625,44.98634694798432,0 -93.25873754927221,44.98626116801038,0 -93.25854410129563,44.98609573318035,0 -93.25801284297884,44.98568929132351,0 -93.25762306406547,44.98540539238834,0 -93.25743619608127,44.98530858275581,0 -93.25701753013328,44.98514313093871,0 -93.24934027761739,44.98203463288046,0 -93.24932296005872,44.98201012320521,0 -93.24931430818968,44.98197131868616,0 -93.24932586277807,44.981950897382,0 -93.24987835527408,44.98148172475502,0 -93.25024508184005,44.9813040920165,0 -93.2552969007898,44.98046503337968,0 -93.25595202155925,44.98037202883974,0 -93.25638222448112,44.98034142533886,0 -93.25682108232178,44.98034962413333,0 -93.2573609865354,44.98040888440897,0 -93.25775652754109,44.98049468362731,0 -93.25803080994885,44.98057230661869,0 -93.25872083996994,44.9808051632964,0 -93.25875548739526,44.9808051650733,0 -93.25896395099663,44.98052089797245,0 -93.2584269726206,44.98000417140498,0 -93.25614346500218,44.97902347699755,0 -93.2554592554381,44.97869666092761,0 -93.25486453326091,44.9784760471449,0 -93.25437686818485,44.9784206371801,0 -93.25320181254367,44.97836130367858,0 -93.25268791583598,44.97828160373465,0 -93.25236457079633,44.97819375237908,0 -93.25202656398443,44.97807075614448,0 -93.25136260812555,44.97771328304998,0 -93.25105660307048,44.97759683809477,0 -93.25073326236557,44.97753961639207,0 -93.24991045120659,44.97748845890818,0 -93.2497285618341,44.97749252049358,0 -93.24913961995142,44.97754267951078,0 -93.24891731174164,44.97755081884924,0 -93.24873831614065,44.97753649862171,0 -93.24775383277391,44.97749143012982,0 -93.24750554247176,44.97749343619873,0 -93.24730195970774,44.9775302069207,0 -93.24671152966504,44.977685291767,0 -93.24656427703812,44.97771386122462,0 -93.24642708774478,44.97772447299995,0 -93.24628273262465,44.97772036514021,0 -93.24612971959495,44.97770604426415,0 -93.24606043323871,44.97769173691496,0 -93.2444350878754,44.97742188224362,0 -93.24428784856525,44.9774157298702,0 -93.2441117367965,44.97741365687438,0 -93.24325425918435,44.9774339273175,0 -93.24308888639936,44.97741824021462,0 -93.24292685697553,44.97737727005945,0 -93.24271687321291,44.97730710019805,0 -93.24248883096368,44.97720902732655,0 -93.24229833086694,44.97708645378278,0 -93.24211072398785,44.97694958455185,0 -93.24199529457856,44.97681272902056,0 -93.24190008785786,44.9766432007464,0 -93.24182221340109,44.97644916834902,0 -93.24176747312242,44.97615915287752,0 -93.24177912806434,44.97588548847673,0 -93.24184273686936,44.97564246829479,0 -93.24196373479937,44.97522456004217,0 -93.24197821194554,44.97511632206599,0 -93.24197148907491,44.97501817040504,0 -93.24194936102408,44.97490142012641,0 -93.24190904171719,44.97481813560845,0 -93.24169268200281,44.97441575868985,0 -93.24157423283239,44.97418542321611,0 -93.24150503249575,44.97396484127657,0 -93.24146470245374,44.97374426585823,0 -93.2414187866857,44.97304988047977,0 -93.24137563563201,44.97267817556126,0 -93.24132958548675,44.97240698187789,0 -93.24125752181234,44.97213738513683,0 -93.2411162147595,44.97177178784714,0 -93.24101526135287,44.97156345475334,0 -93.24090255441641,44.97136699426709,0 -93.24069771067224,44.9710749039056,0 -93.24050439206395,44.97084408538176,0 -93.2402620140242,44.97058262263126,0 -93.23995613966417,44.9703007234593,0 -93.23968199426992,44.97008418316337,0 -93.23931260291623,44.96983698671019,0 -93.23893742855739,44.96961633645921,0 -93.23853338373424,44.96940588844939,0 -93.23811774640815,44.96921291758991,0 -93.23767617415946,44.96900858486191,0 -93.23728654440792,44.96885532133211,0 -93.23685937362896,44.96874085148419,0 -93.23637446409381,44.96864474684728,0 -93.23534690775639,44.96847293996027,0 -93.23478694927351,44.96837272490416,0 -93.23427029043046,44.96827047566306,0 -93.23330050526018,44.96806292628715,0 -93.23220373945171,44.96779916928228,0 -93.23117625673994,44.96754563358943,0 -93.23042584721543,44.96736160722567,0 -93.23002990344546,44.96725991694408,0 -93.22949922721315,44.96708257365543,0 -93.22914065404987,44.96695060011935,0 -93.22874855147191,44.96679796608527,0 -93.22852635734371,44.96668148948521,0 -93.22842248335049,44.96661814519242,0 -93.22800410316181,44.96634434817815,0 -93.22771846700513,44.96614615560247,0 -93.22759153142069,44.9660378742585,0 -93.22737000767576,44.96587258332322,0 -93.22724018808682,44.96576021604572,0 -93.22687959289223,44.96542516345406,0 -93.22650750100118,44.96502475432175,0 -93.2258037089497,44.96427500192982,0 -93.22387452847359,44.96223150173028,0 -93.22344039886674,44.96187660840467,0 -93.22250283509489,44.96121048605617,0 -93.22212494610319,44.96091625691012,0 -93.22184115998986,44.96066801756393,0 -93.22149216162995,44.96035133340349,0 -93.22062406596992,44.95948099225904,0 -93.22030448912329,44.95922185640752,0 -93.21894065878459,44.95822960440701,0 -93.21870991199135,44.95804162097,0 -93.21805636245283,44.95749708949945,0 -93.21786599486713,44.95735609506286,0 -93.21709001195777,44.956892178067,0 -93.21626027067548,44.95644584606511,0 -93.21423515998002,44.95542179286973,0 -93.21407761649111,44.9553341112317,0 -93.21397091256765,44.95524624574568,0 -93.21385556376174,44.95514408047533,0 -93.21308870833178,44.95423696686338,0 -93.21296761090075,44.95411233334709,0 -93.21279748966197,44.95394683169233,0 -93.21255453753136,44.95374654791929,0 -93.21236997265432,44.9535994191074,0 -93.21066550331864,44.95243453202736,0 -93.20995886646882,44.95201348428218,0 -93.20944316879404,44.95172462844833,0 -93.20906243433396,44.95152429984626,0 -93.20664371452503,44.95032549485114,0 -93.20654853675632,44.95027438959036,0 -93.20604674814851,44.94995349745562,0 -93.2059025821754,44.94983701419705,0 -93.2057296368599,44.94964495162438,0 -93.20565472400537,44.94953258785195,0 -93.20562701590329,44.94943459656107,0 -93.20544006261358,44.94883406852932,0 -93.20534214792932,44.94864204366819,0 -93.20527590229607,44.94852151507732,0 -93.20456205902507,44.94750672345228,0 -93.20421050056044,44.94704498278727,0 -93.20406645009166,44.94682842535326,0 -93.20393402056872,44.94653835194702,0 -93.20379875450524,44.94620334635896,0 -93.20367792826045,44.94585813567807,0 -93.2034917711336,44.94521299977659,0 -93.20347773130396,44.94515690087307,0 -93.20349795213147,44.94513648822596,0 -93.20371734205268,44.9450487852635,0 -93.20375777333155,44.94501612989365,0 -93.20378091121199,44.94496508482194,0 -93.20361724193768,44.9442093530153,0 -93.20349400939119,44.94341075118398,0 -93.20347093971395,44.94339848543734,0 -93.2031858483067,44.94340316896322,0 -93.2031227496116,44.94342867136297,0 -93.20311370773007,44.94349245956808,0 -93.20309599608672,44.94387095489805,0 -93.20313646131964,44.94407346838917,0 -93.20319211173546,44.94429854249208,0 -93.20339080979261,44.94501009532147,0 -93.20363923981023,44.9458597909827,0 -93.20376290444496,44.94620291881845,0 -93.20389464290435,44.94654400311523,0 -93.20403547321415,44.94683296624897,0 -93.20417707076794,44.94705970991451,0 -93.20452290841531,44.94751422289733,0 -93.20522836054049,44.9485349106174,0 -93.20529997698037,44.94864472591519,0 -93.2053960127864,44.94884013883713,0 -93.20558094534908,44.94943879065987,0 -93.20562419738877,44.94954086167772,0 -93.20569382123748,44.94965072871613,0 -93.20587037162827,44.94985441224265,0 -93.20601438878319,44.94997365265147,0 -93.20628404741748,44.9501659612158,0 -93.20650474867001,44.95030017041558,0 -93.20660734814521,44.95035263340437,0 -93.20903064164146,44.95154588564387,0 -93.20940848043448,44.95174385352495,0 -93.20993246914551,44.95203363217783,0 -93.21062763802689,44.95245657970352,0 -93.21232761328382,44.95361290735128,0 -93.21252274636501,44.9537613006453,0 -93.21275690350952,44.95396158846221,0 -93.21292716296438,44.95412396013003,0 -93.21304756143596,44.95424946343016,0 -93.21317954932965,44.95439042032277,0 -93.21381882504245,44.95515832393178,0 -93.21393428121964,44.95526557733228,0 -93.21404287083109,44.95535604621727,0 -93.21420303531959,44.95543951535186,0 -93.21623084437921,44.95646945092657,0 -93.2170559559021,44.95691157806024,0 -93.21782955323745,44.95738050344544,0 -93.21802244018325,44.95751737300019,0 -93.21867574731014,44.9580544606892,0 -93.21890950339054,44.9582462667496,0 -93.22026177424223,44.95924219253379,0 -93.22057895437787,44.95950108459631,0 -93.22145813884484,44.96036414451405,0 -93.22180443683347,44.96068305908651,0 -93.22209471427894,44.9609296238955,0 -93.22247767177845,44.96122354487493,0 -93.22334364914789,44.96187950043954,0 -93.22376348491217,44.9622671671324,0 -93.22411985544122,44.96258722384928,0 -93.22457168175653,44.96305207177858,0 -93.22575333696392,44.96429531909912,0 -93.22645768974238,44.96503467020823,0 -93.22683907429284,44.96544140248787,0 -93.2272050045605,44.96578450422861,0 -93.22734053390204,44.96589263312974,0 -93.2275570567474,44.96605942762266,0 -93.22768874452152,44.96617048441239,0 -93.22797915673047,44.96636609611718,0 -93.22839299900036,44.96663798476074,0 -93.22850251969835,44.96670721145554,0 -93.22872052698942,44.96682590042467,0 -93.22896388227258,44.96693261761511,0 -93.22915314390681,44.96699833818119,0 -93.22948257907162,44.96711648304265,0 -93.22999679278853,44.96728253896122,0 -93.23032913652678,44.96737136717192,0 -93.23219743579868,44.96782819117849,0 -93.23330021975575,44.96809188111176,0 -93.23426784428757,44.96829266762954,0 -93.23478296021568,44.96839930551704,0 -93.2353428636559,44.96849822365706,0 -93.23637050758973,44.9686620742222,0 -93.23685325730926,44.96876107005219,0 -93.23727519099852,44.96888145409113,0 -93.23765264325117,44.96902986641639,0 -93.23810083435818,44.96923129797933,0 -93.23851088940609,44.96942974090461,0 -93.23891932101624,44.9696352929674,0 -93.23929243108104,44.96985308204229,0 -93.23965276374938,44.97009382567411,0 -93.23993011289328,44.97031183902073,0 -93.24023473403251,44.97059504127954,0 -93.24046980675082,44.97084755862488,0 -93.24065621497938,44.97108605603392,0 -93.24085929770082,44.97137616911289,0 -93.24097943839895,44.97157092140057,0 -93.24108650249599,44.97178298202598,0 -93.24122219945724,44.97214161620881,0 -93.24129017991655,44.97240842415371,0 -93.2413446377102,44.97268406955549,0 -93.24138940780202,44.97305679907256,0 -93.24140230619437,44.97322609846481,0 -93.24141964343781,44.97374586999954,0 -93.24143497472872,44.97388542061857,0 -93.24146877662936,44.97399621106229,0 -93.24151966542155,44.97416592636055,0 -93.24159280253748,44.97431514922584,0 -93.24165883093794,44.97443074593922,0 -93.24185248107476,44.97476916996856,0 -93.24190254631337,44.97488518860536,0 -93.24192550663936,44.97497979851238,0 -93.24193691299732,44.97508269594011,0 -93.24191684464553,44.97523307276151,0 -93.24181043228317,44.9756415954088,0 -93.24173302713781,44.97587971548182,0 -93.24173291804181,44.9761687746732,0 -93.24178523760197,44.9764416491247,0 -93.24185794167649,44.97664613109826,0 -93.2419673757891,44.97682702790508,0 -93.24207221634114,44.976958567347,0 -93.24226413345325,44.97711184762686,0 -93.2424636007373,44.97723254776363,0 -93.24269453254641,44.97732966673176,0 -93.2429482991318,44.97740497916746,0 -93.24308970451347,44.97743377069528,0 -93.24326429411576,44.97744755216652,0 -93.24417418754446,44.97743379172407,0 -93.24444849662186,44.97744353282048,0 -93.24605378254658,44.9777193165761,0 -93.24612843993103,44.97773289937062,0 -93.24627923246328,44.97775013063782,0 -93.24642314600423,44.97775057896733,0 -93.24657559288239,44.97774019986928,0 -93.24671232914113,44.97771821799679,0 -93.24732503043849,44.97755080373394,0 -93.24749531839545,44.9775208682009,0 -93.24771262365444,44.97751089770912,0 -93.24873117266787,44.97756320258218,0 -93.24891359760193,44.97757394119448,0 -93.24914103020835,44.97756652822299,0 -93.24973240759579,44.97752548048046,0 -93.2499131675275,44.97751767270292,0 -93.25072536123564,44.97757116366094,0 -93.25103604725692,44.97762657856259,0 -93.25134706943656,44.97773901949515,0 -93.25199891873676,44.97808653734383,0 -93.25223593168181,44.9781848907521,0 -93.25244942843777,44.9782541776902,0 -93.25278955466091,44.97833274996069,0 -93.25310356622933,44.9783753483796,0 -93.25342045180899,44.97839666503913,0 -93.25376466333184,44.97840666803154,0 </coordinates>
+				</LineString>
+			</Placemark>
+			<Folder>
+				<name>Half Marathon Splits</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<Placemark>
+					<name>Half Start</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>-93.25698770784126</longitude>
+						<latitude>44.97825812517099</latitude>
+						<altitude>0</altitude>
+						<range>250.1401091595931</range>
+						<tilt>0</tilt>
+						<heading>0.003278892561974768</heading>
+						<altitudeMode>relativeToGround</altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-square12</styleUrl>
+					<Point>
+						<coordinates>-93.25899759479484,44.97925495035482,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>1 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ylw-square10</styleUrl>
+					<Point>
+						<coordinates>-93.26043892,44.98149809,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>2 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ylw-square6</styleUrl>
+					<Point>
+						<coordinates>-93.27452725000001,44.99068841,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>3 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ylw-square11</styleUrl>
+					<Point>
+						<coordinates>-93.26918591999998,44.99862985,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>4 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ylw-square5</styleUrl>
+					<Point>
+						<coordinates>-93.2597126,44.98783255,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>5 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ylw-square2</styleUrl>
+					<Point>
+						<coordinates>-93.25547966000001,44.98043909,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>6 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ylw-square</styleUrl>
+					<Point>
+						<coordinates>-93.24378657999999,44.97742134,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>7 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ylw-square3</styleUrl>
+					<Point>
+						<coordinates>-93.23223013000001,44.96780552,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>8 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ylw-square9</styleUrl>
+					<Point>
+						<coordinates>-93.21826524000001,44.95767113,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>9 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ylw-square1</styleUrl>
+					<Point>
+						<coordinates>-93.20449587,44.94741979,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>10 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ylw-square7</styleUrl>
+					<Point>
+						<coordinates>-93.20943124000002,44.95175644,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>11 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ylw-square0</styleUrl>
+					<Point>
+						<coordinates>-93.22356139,44.96208055,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>12 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ylw-square4</styleUrl>
+					<Point>
+						<coordinates>-93.23961509000002,44.97006866,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>13 mile</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ylw-square8</styleUrl>
+					<Point>
+						<coordinates>-93.25168482000001,44.97791908,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Finish</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>-93.2536524455389</longitude>
+						<latitude>44.97798074208431</latitude>
+						<altitude>0</altitude>
+						<range>250.1401091557373</range>
+						<tilt>0</tilt>
+						<heading>0.005636359942771119</heading>
+						<altitudeMode>relativeToGround</altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-diamond00</styleUrl>
+					<Point>
+						<coordinates>-93.25376466448709,44.97840199856363,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

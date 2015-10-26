@@ -1,0 +1,112 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>prototype judging screen</title>
+<meta name="Microsoft Border" content="none">
+
+<script type="text/javascript">
+
+// DataBase definitions
+// bib number is stored one per line.
+
+// TallySheet definitions
+// column 1-6   bib number (blanks are ignored)
+// column 7     blank
+// column 8-11  yellow card time (24 hour clock HHMM)
+// column 12    blank
+// column 13    < for yellow card bent knee or ~ for yellow card lifting
+// column 14-15 is blank
+// column 16-19 red card time (24 hour clock HHMM)
+// column 20    blank
+// column 21    < for red card bent knee or ~ for red card lifting
+
+</script>
+
+</head>
+
+<body >
+<br>
+
+<form method="GET" name="form">
+	Racewalk Judge
+	<input type="text" name="JudgeNumber" size="1" tabindex="1" value=JudgeNumber>
+	<input type="text" name="JudgeName" size="30" tabindex="2" value=JudgeName>
+	<br>
+	<table border="0" cellpadding="5" style="border-collapse: collapse" id="table3">
+		<tr>
+			<td rowspan="2">
+	<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse" id="table4">
+		<tr>
+			<td><button name="N1" style="width: 25px; height: 25px" onclick="pad_click('1')">1</button></td>
+			<td><button name="N2" style="width: 25px; height: 25px" onclick="pad_click('2')">2</button></td>
+			<td><button name="N3" style="width: 25px; height: 25px" onclick="pad_click('3')">3</button></td>
+		</tr>
+		<tr>
+			<td><button name="N4" style="width: 25px; height: 25px" onclick="pad_click('4')">4</button></td>
+			<td><button name="N5" style="width: 25px; height: 25px" onclick="pad_click('5')">5</button></td>
+			<td><button name="N6" style="width: 25px; height: 25px" onclick="pad_click('6')">6</button></td>
+		</tr>
+		<tr>
+			<td><button name="N7" style="width: 25px; height: 25px" onclick="pad_click('7')">7</button></td>
+			<td><button name="N8" style="width: 25px; height: 25px" onclick="pad_click('8')">8</button></td>
+			<td><button name="N9" style="width: 25px; height: 25px" onclick="pad_click('9')">9</button></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td><button name="N0" style="width: 25px; height: 25px" onclick="pad_click('0')">0</button></td>
+			<td>&nbsp;</td>
+		</tr>
+	</table>
+				</td>
+			<td colspan="2">
+			<p align="center"><input type="text" name="bib" size="5"></td>
+		</tr>
+		<tr>
+			<td>
+			<button name="YellowCard" style="color: #000000; background-color: #FFFF00; width:60px" value="Yellow" onclick="yellow()">
+			<b>Yellow</b></button></td>
+			<td>
+			<button name="RedCard" value="Red" style="color: #FFFFFF; background-color: #FF0000; width:60px" onclick="red()">
+			<b>Red</b></button></td>
+		</tr>
+	</table>
+	<br>
+	<table border="0" cellpadding="5" style="border-collapse: collapse" id="table1">
+		<tr>
+			<td colspan="4">
+			<p align="center"><b>Tally Sheet</b></td>
+		</tr>
+		<tr>
+			<td >
+			<p align="center"><font face="Courier New" size="2">&nbsp;&nbsp;Bib&nbsp;&nbsp;
+			</font></td>
+			<td bgcolor="#FFFF00" width="70"><font face="Courier New" size="2">time&nbsp; 
+			~&gt;</font></td>
+			<td bgcolor="#FF0066" width="70"><font face="Courier New" size="2">time&nbsp; 
+			~&gt;</font></td>
+			<td width="23">&nbsp;&nbsp;&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+			<textarea rows="20" name="TallySheet" cols="30" align="left"></textarea></td>
+		</tr>
+	</table>
+	<br><input type="submit" value="Submit Results at End of Race" name="B1">
+	<hr>
+	Testing Only<br>
+	<br>
+	DataBase<br>
+	<textarea rows="20" name="DataBase" cols="5" align="left"></textarea>
+	<br><br>
+	&nbsp;<br>
+&nbsp;<input type="reset" value="Reset" name="B2" onclick="reset()">
+	<br>&nbsp;
+	<br>&nbsp;
+	
+</form>
+
+</body>
+
+</html>

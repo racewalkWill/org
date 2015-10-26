@@ -1,0 +1,346 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/WeWalkMarathon.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>2010 Feedback - We Walk! Marathon</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<style type="text/css"> 
+<!-- 
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background-color: #FFFFFF ;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #mainContent is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust based on your final font sizing.
+*/
+.twoColElsLtHdr #container { 
+	width: 46em;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+} 
+.twoColElsLtHdr #header { 
+	background-color: #FFFFFF; 
+	padding: 0 10px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.twoColElsLtHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+
+/* Tips for sidebar1:
+1. Be aware that if you set a font-size value on this div, the overall width of the div will be adjusted accordingly.
+2. Since we are working in ems, it's best not to use padding on the sidebar itself. It will be added to the width for standards compliant browsers creating an unknown actual width. 
+3. Space between the side of the div and the elements within it can be created by placing a left and right margin on those elements as seen in the ".twoColElsLtHdr #sidebar1 p" rule.
+*/
+.twoColElsLtHdr #sidebar1 {
+	float: left;
+	width: 12em; /* since this element is floated, a width must be given */
+	background-color: #FFFFCC; /* the background color will be displayed for the length of the content in the column, but no further */
+	padding: 15px 0; /* top and bottom padding create visual space within this div */
+	line-height: 30px;
+}
+.twoColElsLtHdr #sidebar1 h3, .twoColElsLtHdr #sidebar1 p {
+	margin-left: 10px; /* the left and right margin should be given to every element that will be placed in the side columns */
+	margin-right: 10px;
+}
+
+/* Tips for mainContent:
+1. If you give this #mainContent div a font-size value different than the #sidebar1 div, the margins of the #mainContent div will be based on its font-size and the width of the #sidebar1 div will be based on its font-size. You may wish to adjust the values of these divs.
+2. The space between the mainContent and sidebar1 is created with the left margin on the mainContent div.  No matter how much content the sidebar1 div contains, the column space will remain. You can remove this left margin if you want the #mainContent div's text to fill the #sidebar1 space when the content in #sidebar1 ends.
+3. To avoid float drop, you may need to test to determine the approximate maximum image/element size since this layout is based on the user's font sizing combined with the values you set. However, if the user has their browser font size set lower than normal, less space will be available in the #mainContent div than you may see on testing.
+4. In the Internet Explorer Conditional Comment below, the zoom property is used to give the mainContent "hasLayout." This avoids several IE-specific bugs that may occur.
+*/
+.twoColElsLtHdr #mainContent {
+	margin: 0 1.5em 0 13em; /* the right margin can be given in ems or pixels. It creates the space down the right side of the page. */
+} 
+.twoColElsLtHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background-color: #FFFFFF;
+} 
+.twoColElsLtHdr #footer p {
+	margin: 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+
+/* Miscellaneous classes for reuse */
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+--> 
+</style><!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+.twoColElsLtHdr #sidebar1 { padding-top: 30px; }
+.twoColElsLtHdr #mainContent { zoom: 1; padding-top: 15px; }
+/* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+</style>
+<![endif]-->
+<link href="../zzzzWOM.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.style1 {
+	font-size: 12
+}
+.style2 {
+	font-size: 12px
+}
+-->
+</style>
+</head>
+
+<body class="twoColElsLtHdr">
+
+<div id="container">
+  <div id="header">
+    <img src="images/2014 Logo.JPG" alt="We Walk Logo" width="541" height="148" align="left" />
+    <h2 align="center" class="style1">&nbsp;</h2>
+    <h2 align="center" class="style1">May 17, 2014</h2>
+    <h3 align="center" class="style2">on the Lake Wobegon Trail</h3>
+    <h3 align="center" class="style2">between Melrose &amp; St. Joseph</h3>
+    <h3 align="center" class="style2">in central Minnesota</h3>
+    <p align="center" class="style1">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p>&nbsp;</p>
+    <p><br />
+      </p>
+  </div>
+  <div id="sidebar1">
+    <h4 align="center"><a href="index.html">Home</a></h4>
+    <h4 align="center"><a href="registration.html">Registration</a></h4>
+    <h4 align="center"><a href="general.html">General Information</a></h4>
+    <h4 align="center"><a href="lastminute.html">Last Minute Information</a></h4>
+    <h4 align="center"><a href="course.htm">Course Information</a></h4>
+    <h4 align="center"><a href="directions.html">Directions</a></h4>
+    <h4 align="center"><a href="results.htm">Results</a><a href="2010results.htm"></a><a href="2009results.htm"></a></h4>
+    <h4 align="center"><a href="training.html">Training</a></h4>
+  <!-- end #sidebar1 --></div>
+  <!-- InstanceBeginEditable name="Content" -->
+  <div id="mainContent">
+    <h1>We Walk! 2010 Feedback</h1>
+    <p>&nbsp;</p>
+    <p>2010 is the second year for the We Walk! Marathon. </p>
+	<p>&nbsp;</p>
+	<p>Many of you 
+	gave us wonderful comments and suggestions about the event. We want to make 
+	the next event better by learning from this year&#39;s event. So, if you have 
+	anything you especially liked, or anything that you&#39;d like changed, please 
+	let us know. Even if you told us on the day of the race, it would be good to 
+	drop us a note anyway, as we may have forgotten it with what else was going 
+	on. Just send an e-mail to:
+	<a href="mailto:info@walkonmn.org?subject=Feedback: We Walk! Marathon & Half">
+	info@walkonmn.org</a>.</p>
+	<p>&nbsp;</p>
+	<p>We put every e-mail here. We only delete personal issues that are outside 
+	the organization of the event. </p>
+	<p>&nbsp;</p>
+	<p><b>The e-mail feedback we received so far:</b></p>
+	<p>&nbsp;</p><hr>
+	<p>WOW THAT WAS FUN.. And I hardly even hurt.. What could be better ? I hope 
+	that you have managed to survive too. </p>
+	<p>Here is the link to the photos that Leslie took. Not much in the way of 
+	captions. I’ll try to get to that later. There are two albums for the 
+	Marathon and Half. Each has the start and one water stop. Leslie tried as 
+	much as she could to get a photo of everyone, it was quite a crowd. </p>
+	<p>
+	<a href="http://web.me.com/wloewblosser/We_Walk_Marathon_2010/Albums/Albums.html">
+	<font size="1">
+	http://web.me.com/wloewblosser/We_Walk_Marathon_2010/Albums/Albums.html</font></a><font size="1">
+	</font></p>
+	<p>Will </p>
+	<p>Bloomington, MN</p>
+	<hr>
+	<p>Please pass on my thanks to Leslie for the wonderful pictures! I down 
+	loaded a number of them to save. The photos seem to have been a great 
+	back-up to verifying participant information. I&#39;m sure Bruce and Dave 
+	appreciated the feedback Will and Leslie provided on the finish results. </p>
+	<p>Anita</p>
+	<p>Edina, MN</p>
+	<hr>
+	<p>Thanks to you and Dave for all your work - I spoke with the manager at Bo 
+	Diddley&#39;s yesterday - just a thought for next year - she figured out we 
+	could do a 6 inch sub for everyone - she could do it for $3.15 per sub and 
+	do it the morning-of if we needeed 100 to 125 subs or whatever. The sandwich 
+	with an apple, a drink and Bob&#39;s cookies would be a nice little alternative 
+	lunch for everyone. What do you think? </p>
+	<p>Rogo</p>
+	<p>Saint Cloud, MN</p>
+	<hr>
+	<p>Well done fellows, great event!! </p>
+	<p>I put a dollar in the dorm drink machine Fri late afternoon, thinking 
+	drinks were a dollar. </p>
+	<p>I left my 50 State cap in St Joseph. I dropped it; fellows behind me 
+	(they finished ahead) picked it up and left it at an aid station. It wasn&#39;t 
+	at the finish line and I had a plane to catch. I donate it to the event. </p>
+	<p>Thank you again for an fine event for my 100th marathon (or over 
+	distance)!!!!!! </p>
+	<p>Nick Karem </p>
+	<p>Louisville, KY</p>
+	<blockquote>
+		<p>Partial Response from Bruce - As we sort through all the stuff that 
+		Dave and I brought back from the event, we&#39;ll look for your hat. Dave 
+		and I appreciate the effort that went into earning a 50 state cap (1 
+		marathon in each state). You&#39;ll get it back if we find it. As for the $1 
+		you contributed to the pop machine. I am sure the next purchaser 
+		appreciated your donation to the price of their can.</p>
+	</blockquote>
+	<hr>
+	<p>Here is a link to the photos I took. Some good, some bad. </p>
+	<p>Thanks again for a really great event. I enjoyed it very much. </p>
+	<p>Dorrie </p>
+	<p>
+	<a href="http://picasaweb.google.com/ldhulsey/WeWalkMarathonStJosephMN?feat=directlink">
+	<font size="1">
+	http://picasaweb.google.com/ldhulsey/WeWalkMarathonStJosephMN?feat=directlink</font></a><font size="1">
+	</font>&nbsp;</p>
+	<p>Olive Branch, MS</p>
+	<hr>
+	<p>Thanks for the fun event! </p>
+	<p>The one suggestion I have is to include trash/recycling bins further down 
+	the trail from the water stations, as I was forced to either slow down or 
+	stop to throw my bottle away, or toss it alongside the trail further down. </p>
+	<p>As I’m getting married May 22nd of next year, I probably won’t be 
+	attending the next event. However, I hope to return the following year with 
+	better form and a more cooperative digestive tract </p>
+	<p>Leif DeVaney</p>
+	<p>Falcon Heights, MN</p>
+	<blockquote>
+		<p>Partial Response from Bruce - Congratulations on your planned 
+		marriage. I have this unusual idea for a pre-rehearsal dinner activity 
+		....</p>
+		<p>All the bottles got picked up - thanks to our course crew of Linda 
+		Beduhn and Dave Daubert.</p>
+	</blockquote>
+	<hr>
+	<p>Everything was very well done. I couldn&#39;t have asked for anything more 
+	for my first&nbsp; ultramarathon of the millenium. </p>
+	<p>I&#39;m not sure you had adequate medical coverage - one EMT and one aide 
+	with a phone would have been appropriate, assuming they knew the 
+	nonemergency phone nos. of the local emergency services and had contacted 
+	the services in advance. I suspect most of us in the marathon/50km carried a 
+	cellphone with Dave&#39;s phone no. programmed in (I also had Bruce&#39;s, but don&#39;t 
+	know if it was his home or cellphone). That essentially made us the first 
+	responders should the person in front of us have&nbsp; difficulties; I hope 
+	the organizers were keeping an eye on the last group of four should anyone 
+	have had to drop back from that group. I suggest for next year that we be 
+	encouraged to program a separate telephone number for medical issues so the 
+	meet director doesn&#39;t have to be in that loop. With a median age over 50, 
+	this field is especially in need of good medical planning. </p>
+	<p>On a separate matter: it never crossed my mind that some of the Gatorade 
+	in the race would be low-calorie - until I opened one a ways down the trail 
+	and took a sip. </p>
+	<p>Once again - thanks very much for a quality event. </p>
+	<p>Dave Gwyn</p>
+	<p>Houston, TX</p>
+	<hr>
+	<p>Very nice event. I really enjoyed the half marathon. One comment, could 
+	you start the event earlier, say, 7:30 or 8:00 a.m? The sun was a little 
+	warm out there towards the end. Also, if you could have water on ice at the 
+	end of the event, that would be great also. </p>
+	<p>Annette LeDuc</p>
+	<hr>
+	<p>Bruce took a picture of my sister and me at the finish line and I 
+	promised I would send it to you, so here it is. I wish I would have taken 
+	pictures on the trail but I was too focused on walking...I guess. </p>
+	<p>This was our first 1/2 marathon and we really didn&#39;t know what to expect, 
+	but all the details were covered and we had fun. I really appreciated all 
+	the information on your website as well. I&#39;ve been looking at other race 
+	sites and they don&#39;t have nearly as much detail about the races and the 
+	logistics of the day. </p>
+	<p>At the dinner you were asking about ways to get in touch with the walking 
+	community. My sister mentioned contacting community education programs. Many 
+	have walking groups. I have found a web site (you may already be familiar 
+	with it) <a href="http://www.marathonwalking.com">www.marathonwalking.com</a>. 
+	It has a lot of good information, but I like their calendar listing walker 
+	friendly marathons. Getting the We Walk Marathon added might be another way 
+	to get the word out. </p>
+	<p>Thanks to everyone who helped with the race!!! </p>
+	<p>Leslie Nordgren </p>
+	<p>Edina, MN </p>
+	<hr>
+	<p>What a wonderful race. And next year will be even better. I had a e-mail 
+	from a speedy Portland racewalker ( 4:30 speed range) about joining us next 
+	year. We have had East Coast and South. It is time for the West Coast racers 
+	to join in the fun. </p>
+	<p><b>2011 Suggestions: </b></p>
+	<ol>
+		<li>Add a ‘New to Racewalking’ checkbox on the entry form </li>
+		<li>Schedule a Racewalk Intro/ Racewalk 101 session before the Friday 
+		dinner for those that are new or walkers that want to learn more. Many 
+		races have a pre-race fair.. We could do a Nordic Walk, Racewalk etc 
+		type of tables/sessions. </li>
+		<li>Racewalk judging – The point to point route is a hard one for 
+		judges. There are three local colleges with track programs who could 
+		maybe help us on the judging staff. Would Phil be willing to give us an 
+		intro or contact the track coaches at St John’s, St Cloud and St. 
+		Benedicts? If we do the 5 km ‘Spring Fling’ race at the trail head 
+		during the school session we could train the local track athletes for 
+		judging, (maybe more local students would like to race too !!) </li>
+		<li>Pre-race meetings; let’s cover the race walk rules at the meetings 
+		for those that are new and miss the Friday Intro session. Bruce , you 
+		did a really nice intro at the Spring Indoor regional meet. It kept the 
+		new High School athletes legal on their first race.(PRETTY GOOD!) </li>
+		<li>The pre-race Marathon meeting room at the school is a really nice 
+		start. I was thinking that the more numerous half marathon could do a 
+		similar pre-race start at the Seven Doors church in Albany. There’s a 
+		lot better parking there as well as room for more porta-potties. I know 
+		this moves back the finish line from the trail head and affects the mile 
+		signs. It could make the start easier and with less impact on the 
+		residential neighborhood; and it would be easy for more spectators at 
+		the start. </li>
+		<li>St Cloud Earth Day Walk division – Phil was saying they may do a 
+		formal walk division at the mid April St. Cloud Earth Day Half Marathon. 
+		If this comes off then we could maybe tie into judges training in St. 
+		Cloud as prep for the We Walk! in May. </li>
+	</ol>
+	<p>Again it was a great event this year. I hope you have fully recovered 
+	from all the organizing ordeal. Best Regards </p>
+	<p>Will Loew-Blosser</p>
+	<p>Bloomington, MN</p>
+	<hr>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p><b>Thanks again. </b></p>
+	<p><b>Hope to see you all next year. </b></p>
+	<p><b>Please bring 100 of your closest friends.</b></p>
+	<p>&nbsp;</p>
+	<p>Dave Daubert, race director</p>
+	<p>Bruce Leasure, assistant to the race director</p>
+	<p>&nbsp;</p>
+    <!-- end #mainContent -->
+  </div>
+  <!-- InstanceEndEditable -->
+  <!-- This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats --><br class="clearfloat" />
+<br clear="all" />
+    <div id="footer">
+     <p>&nbsp;</p>
+     <p align="center"><font size="2">Copyright © 2014 by <a href="http://walkonmn.org/">Walk On! Minnesota</a>. All Rights Reserved.</font></p>
+    <p align="center"><font size="2">Contact <a href="mailto:info@walkonmn.org?subject=Website">Webmaster</a> if you have any 
+      issues or problems with this site.</font></p>
+    <p align="center">&nbsp;</p>
+  <!-- end #footer --></div>
+<!-- end #container --></div>
+</body>
+<!-- InstanceEnd --></html>

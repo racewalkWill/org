@@ -1,0 +1,80 @@
+-- sample race documentation file
+--
+-- lines that are blank, or begin with two - characters are ignored
+--
+-- this file is divided into sections- one section for each type of information
+
+Section 1 -- general information
+race name: blue water 1hr race walk       -- the name of the race
+race date: 2009-12-31                     -- the date of the race in yyyy/mm/dd format
+events contested: 1hr, 30min              -- list all primary events 
+postal: 30min, 1hr                        -- which postal events were contested
+race director: bruce leasure              -- name of the race director
+
+Section 2 -- location of the event
+city: Minneapolis                         -- city 
+USA state: MN                             -- USA only - 2 letter postal code for the state
+province:                                 -- non-USA only
+country: USA                              -- country
+
+section 3: -- Course 
+-- leave lines that don't apply to you blank
+-- or put "--" in front of them
+-- duplicate lines if you are using multiple courses
+certified: 2km loop - USATF MN-1234-RR
+certified: 100m loop - USATF MN-1235-RR
+-- surveyed: 400m outdoor track - University of St. Thomas
+
+section 4: judges
+-- certifying organization
+USATF
+-- judge name            level      certification number
+bruce leasure           masters       1234567
+lisa johnson            national      2345678
+charlie smith           association   3456789
+joanne bossie           association   4567890
+
+section 5: -- whole lap counting method
+-- put a description here of how you count whole laps
+-- if using human lap counters, include the number of athletes each lap counter handles
+6 athletes per lap counter
+lap counters record split time for each lap for each athlete
+video camera pointed at finish line & large race clock is backup lap counter
+
+section 6: -- partial lap counting method
+-- put a description here of how you indicate the end of the time period to the athletes
+-- and to the officials, how you mark where the athletes are at the end of the time period,
+-- and how you measure the partial lap distance for each athlete.
+Any athlete  completing a 2km loop with less than 15 minuets remaining in the time interval
+is given the option of walking on the 100m course. Only partial laps on the 100m loop are 
+counted.
+
+The large clock, counting down the remaining time in the interval, is visible to each athlete
+on each 100m lap. 
+
+When the athlete desires, the athlete picks up a small plastic bag marked with the identirying
+characters on the athletes bib (often a number or the athlete's name). This plastic bag 
+contains a small amount of sand to act as a weight.
+
+When one minute is remaining in the time interval, a whistle is blown to prepare the
+athletes and the officials for the end of the time interval
+
+when the time interval expires, an air-horn is sounded. Every athlete carrying a plastic
+bag drops the plastic bag on the track where they are. 
+
+A measuring wheel is used to measure the 100m loop. Starting at the beginning of the loop,
+the distance from the beginning of the loop, the distance to each plastic bag is measured.
+This distance is recorded as the partial lap distance.
+ 
+We also record the distance measured by the measuring wheel for the 100m loop. We use this
+measurement to compute the correction factor for the measuring wheel: 
+
+     100m / measured distance = correction factor
+
+Notice that the correction factor is greater than 1 if the measuring wheel measures a lap
+length less than 100m and greater than 1 if the measuring wheel measures a lap length greater
+than 100m.
+ 
+We then multiply the measured partial lap distance for each athlete by the correction factor
+to obtain the actual patial lap distance.
+	 

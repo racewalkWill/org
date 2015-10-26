@@ -1,0 +1,3076 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <!-- InstanceBegin template="/Templates/WeWalkMarathon.dwt" codeOutsideHTMLIsLocked="false" --><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>Results - We Walk! Marathon</title>
+    <!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="head" -->
+    <style type="text/css">
+<!--
+.style3 {font-size: 90%}
+-->
+</style><!-- InstanceEndEditable -->
+    <style type="text/css"> 
+<!-- 
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background-color: #FFFFFF ;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #mainContent is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust based on your final font sizing.
+*/
+.twoColElsLtHdr #container { 
+	width: 46em;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+} 
+.twoColElsLtHdr #header { 
+	background-color: #FFFFFF; 
+	padding: 0 10px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.twoColElsLtHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+
+/* Tips for sidebar1:
+1. Be aware that if you set a font-size value on this div, the overall width of the div will be adjusted accordingly.
+2. Since we are working in ems, it's best not to use padding on the sidebar itself. It will be added to the width for standards compliant browsers creating an unknown actual width. 
+3. Space between the side of the div and the elements within it can be created by placing a left and right margin on those elements as seen in the ".twoColElsLtHdr #sidebar1 p" rule.
+*/
+.twoColElsLtHdr #sidebar1 {
+	float: left;
+	width: 12em; /* since this element is floated, a width must be given */
+	background-color: #FFFFCC; /* the background color will be displayed for the length of the content in the column, but no further */
+	padding: 15px 0; /* top and bottom padding create visual space within this div */
+	line-height: 30px;
+}
+.twoColElsLtHdr #sidebar1 h3, .twoColElsLtHdr #sidebar1 p {
+	margin-left: 10px; /* the left and right margin should be given to every element that will be placed in the side columns */
+	margin-right: 10px;
+}
+
+/* Tips for mainContent:
+1. If you give this #mainContent div a font-size value different than the #sidebar1 div, the margins of the #mainContent div will be based on its font-size and the width of the #sidebar1 div will be based on its font-size. You may wish to adjust the values of these divs.
+2. The space between the mainContent and sidebar1 is created with the left margin on the mainContent div.  No matter how much content the sidebar1 div contains, the column space will remain. You can remove this left margin if you want the #mainContent div's text to fill the #sidebar1 space when the content in #sidebar1 ends.
+3. To avoid float drop, you may need to test to determine the approximate maximum image/element size since this layout is based on the user's font sizing combined with the values you set. However, if the user has their browser font size set lower than normal, less space will be available in the #mainContent div than you may see on testing.
+4. In the Internet Explorer Conditional Comment below, the zoom property is used to give the mainContent "hasLayout." This avoids several IE-specific bugs that may occur.
+*/
+.twoColElsLtHdr #mainContent {
+	margin: 0 1.5em 0 13em; /* the right margin can be given in ems or pixels. It creates the space down the right side of the page. */
+} 
+.twoColElsLtHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background-color: #FFFFFF;
+} 
+.twoColElsLtHdr #footer p {
+	margin: 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+
+/* Miscellaneous classes for reuse */
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+--> 
+</style><!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+.twoColElsLtHdr #sidebar1 { padding-top: 30px; }
+.twoColElsLtHdr #mainContent { zoom: 1; padding-top: 15px; }
+/* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+</style>
+<![endif]-->
+    <link href="../zzzzWOM.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+<!--
+.style1 {
+	font-size: 12
+}
+.style2 {
+	font-size: 12px
+}
+-->
+</style>
+  </head>
+  <body class="twoColElsLtHdr">
+    <div id="container">
+      <div id="header"> <img src="images/2014%20Logo.JPG" alt="We Walk
+          Logo" height="148" align="left" width="541">
+        <h2 class="style1" align="center">&nbsp;</h2>
+        <h2 class="style1" align="center">May 21, 2016</h2>
+        <h3 class="style2" align="center">on the Lake Wobegon Trail</h3>
+        <h3 class="style2" align="center">between Melrose &amp; St.
+          Joseph</h3>
+        <h3 class="style2" align="center">in central Minnesota</h3>
+        <p class="style1" align="center">&nbsp;</p>
+        <p align="center">&nbsp;</p>
+        <p>&nbsp;</p>
+        <p><br>
+        </p>
+      </div>
+      <div id="sidebar1">
+        <h4 align="center"><a href="index.html">Home</a></h4>
+        <h4 align="center"><a href="registration.html">Registration</a></h4>
+        <h4 align="center"><a href="general.html">General Information</a></h4>
+        <h4 align="center"><a href="lastminute.html">Last Minute
+            Information</a></h4>
+        <h4 align="center"><a href="course.htm">Course Information</a></h4>
+        <h4 align="center"><a href="directions.html">Directions</a></h4>
+        <h4 align="center"><a href="results.htm">Results</a><a
+            href="2010results.htm"></a><a href="2009results.htm"></a></h4>
+        <h4 align="center"><a href="training.html">Training</a></h4>
+        <!-- end #sidebar1 --></div>
+      <!-- InstanceBeginEditable name="Content" -->
+      <div id="mainContent">
+        <h3>2014 Results</h3>
+        <p>&nbsp;</p>
+        <p><strong>Weather</strong></p>
+        <p>A beautiful day for a race. Started out at 41F, clear sky
+          with a light wind from the west. Temperatures climbed to 71F
+          by mid afternoon, when it became partly cloudy. A halo was
+          around the sun for much of the afternoon.</p>
+        <p>&nbsp;</p>
+        <p><strong>Pre-Race Publicity</strong></p>
+        <p>The Saint Cloud Times had an <a
+href="http://www.sctimes.com/story/life/2014/05/05/sauk-rapids-couple-trains-walking-marathon/8711247/">article
+            about our walking marathon</a> a couple of weeks before the
+          event. The couple featured in the article, Buzz and Kathy
+          Snyder walked in this year's event.</p>
+        <p>&nbsp;</p>
+        <p><strong>Web Story from WJON</strong></p>
+        <p><a
+href="http://wjon.com/no-running-allowed-during-we-walk-marathon-half-marathon-50k-video/">An
+            article about the We Walk! Marathon</a><a
+href="http://www.sctimes.com/story/life/2014/05/05/sauk-rapids-couple-trains-walking-marathon/8711247/"></a>
+          appeared Sunday, including an interview with Anita
+          Macias-Howard, the winner of the Half Marathon.</p>
+        <p>&nbsp;</p>
+        <p><strong>Pictures</strong></p>
+        <p><a
+href="https://plus.google.com/photos/102535768867473090977/albums/6015180068766813361">official
+            finish line photographs</a></p>
+        <p>&nbsp;</p>
+        <p><a
+href="https://www.flickr.com/photos/21091417@N03/collections/72157644313053397/">Photos
+            from Will Loew-Blosser, taken by his wife Leslie</a> while
+          Will was walking the marathon, then edited and organized by
+          Will Sunday morning.</p>
+        <p class="style3">&nbsp;</p>
+        <p>Will says:</p>
+        <blockquote>
+          <p>The site has three levels to drill to a racers individual
+            albums [if we could see the bib number on the front]. <br>
+            <br>
+            We Walk 2014</p>
+          <p>We Walk Marathon &amp; 50 km<br>
+            Volunteer Album<br>
+            Start Album<br>
+            (..racer individual albums)<br>
+            <br>
+            We Walk Half Marathon<br>
+            Volunteer Album<br>
+            Start Album<br>
+            (..racer individual albums)<br>
+          </p>
+        </blockquote>
+        <p>&nbsp;</p>
+        <p>Got some good photos of the event? e-mail me a link to them,
+          or just send a photo to <a href="mailto:info@walkonmn.org">info@walkonmn.org</a></p>
+        <p>&nbsp;</p>
+        <p><strong>Comments and Suggestions</strong></p>
+        <p>We are very interested in your thoughts about the We Walk!
+          Marathon, Half Marathon &amp; 50 km. Good things, Bad things,
+          Suggestions, what ever you would like to tell us. Your
+          comments are one of the things we use to make things better
+          from year to year. Please e-mail your comments to: <a
+            href="mailto:info@walkonmn.org">info@walkonmn.org</a></p>
+        <p>&nbsp;</p>
+        <p></p>
+        <p><strong>Official Results</strong></p>
+        <p>&nbsp;</p>
+        <table cellpadding="0" cellspacing="0">
+          <colgroup><col width="28"> <col width="150"> <col width="54">
+            <col width="66"> <col width="67"> <col width="48"> <col
+              width="40"> <col width="50"> </colgroup><tbody>
+            <tr height="51">
+              <td height="51" width="28">
+                <div align="center"><strong>Bib</strong></div>
+              </td>
+              <td width="150">
+                <div align="center"><strong>Name</strong></div>
+              </td>
+              <td width="54">
+                <div align="center"><strong>Gender</strong></div>
+              </td>
+              <td width="66">
+                <div align="center"><strong>Age Group</strong></div>
+              </td>
+              <td width="67">
+                <div align="center"><strong>Distance</strong></div>
+              </td>
+              <td width="48">
+                <div align="center"><strong>Style</strong></div>
+              </td>
+              <td width="40">
+                <div align="center"><strong>Place</strong></div>
+              </td>
+              <td width="50">
+                <div align="center"><strong>Time</strong></div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">194</div>
+              </td>
+              <td>
+                <div align="center">Anita Macias-Howard</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">55-59</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">RW</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">2:27:20</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">190</div>
+              </td>
+              <td>
+                <div align="center">Terry Clark</div>
+              </td>
+              <td>
+                <div align="center">M</div>
+              </td>
+              <td>
+                <div align="center">60-64</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">RW</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">2:43:28</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">64</div>
+              </td>
+              <td>
+                <div align="center">Christine Sarkinen</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">45-49</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">2:44:54</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">65</div>
+              </td>
+              <td>
+                <div align="center">Chris Sarkinen</div>
+              </td>
+              <td>
+                <div align="center">M</div>
+              </td>
+              <td>
+                <div align="center">45-49</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">2:44:54</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">167</div>
+              </td>
+              <td>
+                <div align="center">Gala Andreasen</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">45-49</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Mix</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">2:55:48</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">168</div>
+              </td>
+              <td>
+                <div align="center">Cody Grossinger</div>
+              </td>
+              <td>
+                <div align="center">M</div>
+              </td>
+              <td>
+                <div align="center">9-10</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Mix</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">2:56:32</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">163</div>
+              </td>
+              <td>
+                <div align="center">Logan Grossinger</div>
+              </td>
+              <td>
+                <div align="center">M</div>
+              </td>
+              <td>
+                <div align="center">13-14</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Mix</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">2:56:32</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">193</div>
+              </td>
+              <td>
+                <div align="center">Sunday Cavallaro</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">55-59</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">RW</div>
+              </td>
+              <td>
+                <div align="center">2</div>
+              </td>
+              <td>
+                <div align="center">2:57:17</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">5</div>
+              </td>
+              <td>
+                <div align="center">Marilyn Clark</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">60-64</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">2:57:17</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">164</div>
+              </td>
+              <td>
+                <div align="center">Amy Johnson</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">40-44</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Mix</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">3:00:16</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">160</div>
+              </td>
+              <td>
+                <div align="center">Kathy Snyder</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">55-59</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Mix</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">3:00:16</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">158</div>
+              </td>
+              <td>
+                <div align="center">Corwin Snyder</div>
+              </td>
+              <td>
+                <div align="center">M</div>
+              </td>
+              <td>
+                <div align="center">65-69</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Mix</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">3:00:16</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">192</div>
+              </td>
+              <td>
+                <div align="center">Bj Thornburg</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">65-69</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">RW</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">3:02:45</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">154</div>
+              </td>
+              <td>
+                <div align="center">Carol Higgason</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">55-59</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Mix</div>
+              </td>
+              <td>
+                <div align="center">2</div>
+              </td>
+              <td>
+                <div align="center">3:03:24</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">92</div>
+              </td>
+              <td>
+                <div align="center">Monica Hahn</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">40-44</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">3:04:25</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">44</div>
+              </td>
+              <td>
+                <div align="center">Lana Helgeson</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">40-44</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">2</div>
+              </td>
+              <td>
+                <div align="center">3:19:21</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">34</div>
+              </td>
+              <td>
+                <div align="center">Anne Hof</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">40-44</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">2</div>
+              </td>
+              <td>
+                <div align="center">3:19:21</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">78</div>
+              </td>
+              <td>
+                <div align="center">Angella Roby</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">40-44</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">2</div>
+              </td>
+              <td>
+                <div align="center">3:19:21</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">33</div>
+              </td>
+              <td>
+                <div align="center">Debra Frank</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">45-49</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">2</div>
+              </td>
+              <td>
+                <div align="center">3:19:21</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">58</div>
+              </td>
+              <td>
+                <div align="center">Megan Alexander</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">19-34</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">3:20:59</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">56</div>
+              </td>
+              <td>
+                <div align="center">Heather Thomas</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">35-39</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">3:20:59</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">155</div>
+              </td>
+              <td>
+                <div align="center">Meg Krueger</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">19-34</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Mix</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">3:25:26</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">166</div>
+              </td>
+              <td>
+                <div align="center">Micaela Bagley</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">19-34</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Mix</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">3:25:26</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">45</div>
+              </td>
+              <td>
+                <div align="center">Lisa Korbel</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">19-34</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">2</div>
+              </td>
+              <td>
+                <div align="center">3:25:28</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">46</div>
+              </td>
+              <td>
+                <div align="center">Pam Tralle</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">55-59</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">3:25:28</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">41</div>
+              </td>
+              <td>
+                <div align="center">Gretchen Cooney</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">55-59</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">2</div>
+              </td>
+              <td>
+                <div align="center">3:25:57</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">42</div>
+              </td>
+              <td>
+                <div align="center">Bonnie Barkema</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">60-64</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">2</div>
+              </td>
+              <td>
+                <div align="center">3:25:57</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">50</div>
+              </td>
+              <td>
+                <div align="center">Kathy Wulf</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">65-69</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">3:25:57</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">169</div>
+              </td>
+              <td>
+                <div align="center">Mary Zack</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">70-74</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Mix</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">3:26:53</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">74</div>
+              </td>
+              <td>
+                <div align="center">Jennifer Allton</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">45-49</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">3</div>
+              </td>
+              <td>
+                <div align="center">3:32:59</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">77</div>
+              </td>
+              <td>
+                <div align="center">Tim Alsduff</div>
+              </td>
+              <td>
+                <div align="center">m</div>
+              </td>
+              <td>
+                <div align="center">45-49</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">2</div>
+              </td>
+              <td>
+                <div align="center">3:32:59</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">49</div>
+              </td>
+              <td>
+                <div align="center">Tammy Grossinger</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">40-44</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">5</div>
+              </td>
+              <td>
+                <div align="center">3:33:21</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">51</div>
+              </td>
+              <td>
+                <div align="center">Colleen Carlson</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">40-44</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">5</div>
+              </td>
+              <td>
+                <div align="center">3:33:21</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">37</div>
+              </td>
+              <td>
+                <div align="center">Michelle Vinkemeier</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">40-44</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">7</div>
+              </td>
+              <td>
+                <div align="center">3:34:36</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">52</div>
+              </td>
+              <td>
+                <div align="center">Terri Reuter</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">40-44</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">7</div>
+              </td>
+              <td>
+                <div align="center">3:34:36</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">94</div>
+              </td>
+              <td>
+                <div align="center">Darlene Gill</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">40-44</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">9</div>
+              </td>
+              <td>
+                <div align="center">3:39:19</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">93</div>
+              </td>
+              <td>
+                <div align="center">Alfred Ritter</div>
+              </td>
+              <td>
+                <div align="center">M</div>
+              </td>
+              <td>
+                <div align="center">80-84</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">3:39:19</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">36</div>
+              </td>
+              <td>
+                <div align="center">Wendy Franklin</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">40-44</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">10</div>
+              </td>
+              <td>
+                <div align="center">3:42:23</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">38</div>
+              </td>
+              <td>
+                <div align="center">Tracy Magner</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">45-49</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">4</div>
+              </td>
+              <td>
+                <div align="center">3:42:23</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">182</div>
+              </td>
+              <td>
+                <div align="center">Marilyn Hathaway</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">55-59</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Nordic</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">3:46:07</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">181</div>
+              </td>
+              <td>
+                <div align="center">Mary Ann Leukuma</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">65-69</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Nordic</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">3:46:07</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">40</div>
+              </td>
+              <td>
+                <div align="center">Darcy Randal</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">19-34</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">3</div>
+              </td>
+              <td>
+                <div align="center">3:47:08</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">55</div>
+              </td>
+              <td>
+                <div align="center">Cheryl Pelkey</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">50-54</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">3:50:47</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">6</div>
+              </td>
+              <td>
+                <div align="center">Marcia Leeper</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">65-69</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">2</div>
+              </td>
+              <td>
+                <div align="center">3:50:47</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">31</div>
+              </td>
+              <td>
+                <div align="center">Jennifer Vick</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">50-54</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">2</div>
+              </td>
+              <td>
+                <div align="center">3:58:06</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">30</div>
+              </td>
+              <td>
+                <div align="center">Michael Vick</div>
+              </td>
+              <td>
+                <div align="center">M</div>
+              </td>
+              <td>
+                <div align="center">50-54</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">3:58:06</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">35</div>
+              </td>
+              <td>
+                <div align="center">Holly Mace</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">45-49</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">5</div>
+              </td>
+              <td>
+                <div align="center">3:59:59</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">17</div>
+              </td>
+              <td>
+                <div align="center">Diane Sorrells</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">45-49</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">5</div>
+              </td>
+              <td>
+                <div align="center">3:59:59</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">27</div>
+              </td>
+              <td>
+                <div align="center">Lori Morris</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">45-49</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">7</div>
+              </td>
+              <td>
+                <div align="center">4:00:30</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">16</div>
+              </td>
+              <td>
+                <div align="center">Joyce Franklin</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">60-64</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">3</div>
+              </td>
+              <td>
+                <div align="center">4:00:49</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">19</div>
+              </td>
+              <td>
+                <div align="center">Elizabeth Kuhn</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">40-44</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">11</div>
+              </td>
+              <td>
+                <div align="center">4:00:55</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">100</div>
+              </td>
+              <td>
+                <div align="center">Amy Opstad</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">40-44</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">11</div>
+              </td>
+              <td>
+                <div align="center">4:00:55</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">18</div>
+              </td>
+              <td>
+                <div align="center">Cinda Long</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">60-64</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">4</div>
+              </td>
+              <td>
+                <div align="center">4:00:55</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">23</div>
+              </td>
+              <td>
+                <div align="center">Linda Krueger</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">60-64</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">5</div>
+              </td>
+              <td>
+                <div align="center">4:03:22</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">24</div>
+              </td>
+              <td>
+                <div align="center">Mark Krueger</div>
+              </td>
+              <td>
+                <div align="center">M</div>
+              </td>
+              <td>
+                <div align="center">60-64</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">4:03:22</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">157</div>
+              </td>
+              <td>
+                <div align="center">Patricia Nadeau</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">55-59</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Mix</div>
+              </td>
+              <td>
+                <div align="center">3</div>
+              </td>
+              <td>
+                <div align="center">4:05:48</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">66</div>
+              </td>
+              <td>
+                <div align="center">Leslie Nordgren</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">50-54</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">3</div>
+              </td>
+              <td>
+                <div align="center">4:08:29</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">67</div>
+              </td>
+              <td>
+                <div align="center">Karen Tufte</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">60-64</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">6</div>
+              </td>
+              <td>
+                <div align="center">4:08:29</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">161</div>
+              </td>
+              <td>
+                <div align="center">Lynn Jutz</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">55-59</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Mix</div>
+              </td>
+              <td>
+                <div align="center">4</div>
+              </td>
+              <td>
+                <div align="center">4:09:56</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">89</div>
+              </td>
+              <td>
+                <div align="center">Katie Lahti</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">19-34</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">4</div>
+              </td>
+              <td>
+                <div align="center">4:10:17</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">91</div>
+              </td>
+              <td>
+                <div align="center">Mary Lahti</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">55-59</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">3</div>
+              </td>
+              <td>
+                <div align="center">4:10:17</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">153</div>
+              </td>
+              <td>
+                <div align="center">Linda Schmeckpeper</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">60-64</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Mix</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">4:10:48</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">152</div>
+              </td>
+              <td>
+                <div align="center">Bonnie Balisteri</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">65-69</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Mix</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">4:10:48</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">90</div>
+              </td>
+              <td>
+                <div align="center">Aditee Kurane</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">19-34</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">5</div>
+              </td>
+              <td>
+                <div align="center">4:11:16</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">98</div>
+              </td>
+              <td>
+                <div align="center">Premkumar Siddharth</div>
+              </td>
+              <td>
+                <div align="center">M</div>
+              </td>
+              <td>
+                <div align="center">19-34</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">4:11:16</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">99</div>
+              </td>
+              <td>
+                <div align="center">Rob Shulfer</div>
+              </td>
+              <td>
+                <div align="center">M</div>
+              </td>
+              <td>
+                <div align="center">40-44</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">4:11:16</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">95</div>
+              </td>
+              <td>
+                <div align="center">Erin Brotka</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">45-49</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">8</div>
+              </td>
+              <td>
+                <div align="center">4:21:55</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">96</div>
+              </td>
+              <td>
+                <div align="center">Vicki Roeder</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">45-49</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">8</div>
+              </td>
+              <td>
+                <div align="center">4:21:55</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">43</div>
+              </td>
+              <td>
+                <div align="center">Angela Story</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">50-54</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">4</div>
+              </td>
+              <td>
+                <div align="center">4:21:55</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">159</div>
+              </td>
+              <td>
+                <div align="center">Sheri Runtsch</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">60-64</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Mix</div>
+              </td>
+              <td>
+                <div align="center">2</div>
+              </td>
+              <td>
+                <div align="center">4:25:04</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">2</div>
+              </td>
+              <td>
+                <div align="center">Nali Book</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">19-34</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">6</div>
+              </td>
+              <td>
+                <div align="center">4:30:58</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">3</div>
+              </td>
+              <td>
+                <div align="center">Cindy Book</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">55-59</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">4</div>
+              </td>
+              <td>
+                <div align="center">4:30:58</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">4</div>
+              </td>
+              <td>
+                <div align="center">Dawn Prchal</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">55-59</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">4</div>
+              </td>
+              <td>
+                <div align="center">4:30:58</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">47</div>
+              </td>
+              <td>
+                <div align="center">Lynn Schwartz</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">60-64</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">7</div>
+              </td>
+              <td>
+                <div align="center">4:36:59</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">28</div>
+              </td>
+              <td>
+                <div align="center">Kris Jones</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">50-54</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">5</div>
+              </td>
+              <td>
+                <div align="center">4:39:30</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">29</div>
+              </td>
+              <td>
+                <div align="center">Dave Jones</div>
+              </td>
+              <td>
+                <div align="center">M</div>
+              </td>
+              <td>
+                <div align="center">50-54</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">2</div>
+              </td>
+              <td>
+                <div align="center">4:39:30</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">85</div>
+              </td>
+              <td>
+                <div align="center">Joy Vaughan</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">40-44</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">13</div>
+              </td>
+              <td>
+                <div align="center">4:46:18</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">84</div>
+              </td>
+              <td>
+                <div align="center">Jodie Novak</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">45-49</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">10</div>
+              </td>
+              <td>
+                <div align="center">4:46:18</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">97</div>
+              </td>
+              <td>
+                <div align="center">Olga Zenteno</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">45-49</div>
+              </td>
+              <td>
+                <div align="center">Half</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">11</div>
+              </td>
+              <td>
+                <div align="center">5:21:28</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center"></div>
+                <br>
+              </td>
+              <td>
+                <div align="center"></div>
+                <br>
+              </td>
+              <td>
+                <div align="center"></div>
+                <br>
+              </td>
+              <td>
+                <div align="center"></div>
+                <br>
+              </td>
+              <td>
+                <div align="center"></div>
+                <br>
+              </td>
+              <td>
+                <div align="center"></div>
+                <br>
+              </td>
+              <td>
+                <div align="center"></div>
+                <br>
+              </td>
+              <td>
+                <div align="center"></div>
+                <br>
+              </td>
+            </tr>
+            <tr height="51">
+              <td height="51" width="28">
+                <div align="center"><strong>Bib</strong></div>
+              </td>
+              <td width="150">
+                <div align="center"><strong>Name</strong></div>
+              </td>
+              <td width="54">
+                <div align="center"><strong>Gender</strong></div>
+              </td>
+              <td width="66">
+                <div align="center"><strong>Age Group</strong></div>
+              </td>
+              <td width="67">
+                <div align="center"><strong>Distance</strong></div>
+              </td>
+              <td width="48">
+                <div align="center"><strong>Style</strong></div>
+              </td>
+              <td width="40">
+                <div align="center"><strong>Place</strong></div>
+              </td>
+              <td width="50">
+                <div align="center"><strong>Time</strong></div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">191</div>
+              </td>
+              <td>
+                <div align="center">Will Loew-Blosser</div>
+              </td>
+              <td>
+                <div align="center">M</div>
+              </td>
+              <td>
+                <div align="center">60-64</div>
+              </td>
+              <td>
+                <div align="center">Marathon</div>
+              </td>
+              <td>
+                <div align="center">RW</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">5:18:13</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">165</div>
+              </td>
+              <td>
+                <div align="center">Becky Gravel</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">19-34</div>
+              </td>
+              <td>
+                <div align="center">Marathon</div>
+              </td>
+              <td>
+                <div align="center">Mix</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">6:03:46</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">162</div>
+              </td>
+              <td>
+                <div align="center">Martha Laurent</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">50-54</div>
+              </td>
+              <td>
+                <div align="center">Marathon</div>
+              </td>
+              <td>
+                <div align="center">Mix</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">6:03:46</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">14</div>
+              </td>
+              <td>
+                <div align="center">Karyn Roberts</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">50-54</div>
+              </td>
+              <td>
+                <div align="center">Marathon</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">6:25:33</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">Roxann Erxleben</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">45-49</div>
+              </td>
+              <td>
+                <div align="center">Marathon</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">6:26:03</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">22</div>
+              </td>
+              <td>
+                <div align="center">Ellie Johnson</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">40-44</div>
+              </td>
+              <td>
+                <div align="center">Marathon</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">6:37:27</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">53</div>
+              </td>
+              <td>
+                <div align="center">Pamala Birkholtz</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">45-49</div>
+              </td>
+              <td>
+                <div align="center">Marathon</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">2</div>
+              </td>
+              <td>
+                <div align="center">6:37:27</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">82</div>
+              </td>
+              <td>
+                <div align="center">Cheri Kedrowski</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">45-49</div>
+              </td>
+              <td>
+                <div align="center">Marathon</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">3</div>
+              </td>
+              <td>
+                <div align="center">6:46:20</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">83</div>
+              </td>
+              <td>
+                <div align="center">Dutch Toenjes</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">45-49</div>
+              </td>
+              <td>
+                <div align="center">Marathon</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">3</div>
+              </td>
+              <td>
+                <div align="center">6:46:20</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">68</div>
+              </td>
+              <td>
+                <div align="center">Roberta Schneider</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">55-59</div>
+              </td>
+              <td>
+                <div align="center">Marathon</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">7:03:13</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">13</div>
+              </td>
+              <td>
+                <div align="center">Kandi Retzlaff</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">40-44</div>
+              </td>
+              <td>
+                <div align="center">Marathon</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">2</div>
+              </td>
+              <td>
+                <div align="center">7:12:42</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">12</div>
+              </td>
+              <td>
+                <div align="center">Peggy Sammons</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">40-44</div>
+              </td>
+              <td>
+                <div align="center">Marathon</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">2</div>
+              </td>
+              <td>
+                <div align="center">7:12:42</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">180</div>
+              </td>
+              <td>
+                <div align="center">Maury Jackson</div>
+              </td>
+              <td>
+                <div align="center">M</div>
+              </td>
+              <td>
+                <div align="center">45-49</div>
+              </td>
+              <td>
+                <div align="center">Marathon</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">7:31:12</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">87</div>
+              </td>
+              <td>
+                <div align="center">Nylce Prada Myers</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">45-49</div>
+              </td>
+              <td>
+                <div align="center">Marathon</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">5</div>
+              </td>
+              <td>
+                <div align="center">7:40:44</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">79</div>
+              </td>
+              <td>
+                <div align="center">Jennie Mulhern</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">35-39</div>
+              </td>
+              <td>
+                <div align="center">Marathon</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">7:54:01</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">151</div>
+              </td>
+              <td>
+                <div align="center">Faye Harrison</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">50-54</div>
+              </td>
+              <td>
+                <div align="center">Marathon</div>
+              </td>
+              <td>
+                <div align="center">Mix</div>
+              </td>
+              <td>
+                <div align="center">2</div>
+              </td>
+              <td>
+                <div align="center">7:54:01</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">60</div>
+              </td>
+              <td>
+                <div align="center">Rich Patrow</div>
+              </td>
+              <td>
+                <div align="center">M</div>
+              </td>
+              <td>
+                <div align="center">65-69</div>
+              </td>
+              <td>
+                <div align="center">Marathon</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">8:04:29</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">54</div>
+              </td>
+              <td>
+                <div align="center">Jan Dooper</div>
+              </td>
+              <td>
+                <div align="center">M</div>
+              </td>
+              <td>
+                <div align="center">75-79</div>
+              </td>
+              <td>
+                <div align="center">Marathon</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">8:04:29</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">72</div>
+              </td>
+              <td>
+                <div align="center">Heidi Keller</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">19-34</div>
+              </td>
+              <td>
+                <div align="center">Marathon</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">8:14:04</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">21</div>
+              </td>
+              <td>
+                <div align="center">Sandra Dobbles</div>
+              </td>
+              <td>
+                <div align="center">F</div>
+              </td>
+              <td>
+                <div align="center">45-49</div>
+              </td>
+              <td>
+                <div align="center">Marathon</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">6</div>
+              </td>
+              <td>
+                <div align="center">8:34:57</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">20</div>
+              </td>
+              <td>
+                <div align="center">Ed Dobbles</div>
+              </td>
+              <td>
+                <div align="center">M</div>
+              </td>
+              <td>
+                <div align="center">40-44</div>
+              </td>
+              <td>
+                <div align="center">Marathon</div>
+              </td>
+              <td>
+                <div align="center">Walk</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">8:34:57</div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center"></div>
+                <br>
+              </td>
+              <td>
+                <div align="center"></div>
+                <br>
+              </td>
+              <td>
+                <div align="center"></div>
+                <br>
+              </td>
+              <td>
+                <div align="center"></div>
+                <br>
+              </td>
+              <td>
+                <div align="center"></div>
+                <br>
+              </td>
+              <td>
+                <div align="center"></div>
+                <br>
+              </td>
+              <td>
+                <div align="center"></div>
+                <br>
+              </td>
+              <td>
+                <div align="center"></div>
+                <br>
+              </td>
+            </tr>
+            <tr height="51">
+              <td height="51" width="28">
+                <div align="center"><strong>Bib</strong></div>
+              </td>
+              <td width="150">
+                <div align="center"><strong>Name</strong></div>
+              </td>
+              <td width="54">
+                <div align="center"><strong>Gender</strong></div>
+              </td>
+              <td width="66">
+                <div align="center"><strong>Age Group</strong></div>
+              </td>
+              <td width="67">
+                <div align="center"><strong>Distance</strong></div>
+              </td>
+              <td width="48">
+                <div align="center"><strong>Style</strong></div>
+              </td>
+              <td width="40">
+                <div align="center"><strong>Place</strong></div>
+              </td>
+              <td width="50">
+                <div align="center"><strong>Time</strong></div>
+              </td>
+            </tr>
+            <tr height="20">
+              <td height="20">
+                <div align="center">195</div>
+              </td>
+              <td>
+                <div align="center">Dave Daubert</div>
+              </td>
+              <td>
+                <div align="center">M</div>
+              </td>
+              <td>
+                <div align="center">65-69</div>
+              </td>
+              <td>
+                <div align="center">50km</div>
+              </td>
+              <td>
+                <div align="center">RW</div>
+              </td>
+              <td>
+                <div align="center">1</div>
+              </td>
+              <td>
+                <div align="center">6:58:28</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p><strong>Our Volunteers</strong></p>
+        <p>Anita Macias-Howard - Packets, Packet Pickup on Friday and
+          Saturday and (after race walking the half marathon) Post-Race
+          greeter at the trail head</p>
+        <p>&nbsp;</p>
+        <p></p>
+        <p></p>
+        <p>Anna Olson - Starts, Finish Line, new volunteer training</p>
+        <p>&nbsp;</p>
+        <p>Lauren Hill - Start, Walk Judge, Finish Line, excess clothing
+          bag pickup, new volunteer training</p>
+        <p>&nbsp;</p>
+        <p></p>
+        <p>Terry Moore - Packet Pickup, Half Start, Finish Line, excess
+          clothing bag pickup, transport for walkers abandoning the
+          event, new volunteer training</p>
+        <p>&nbsp;</p>
+        <p>Dave Daubert - event planning, t-shirt design, vendors,
+          course setup on Friday and (after walking 50 km) 4 miles of
+          course teardown on Saturday, logistics</p>
+        <p>&nbsp;</p>
+        <p>Bruce Leasure - event planning, finisher medal design,
+          registration, web site, course setup on Friday, starts,
+          finish, finish line pictures, walk judge and course teardown
+          on Saturday, results, logistics</p>
+        <p>&nbsp;</p>
+        <p><strong>Cooperative Relationships</strong></p>
+        <p>Mike Doyle - St Mary's School, Melrose - Pre-Race
+          food/drink/bathrooms for Marathon and 50km</p>
+        <p>&nbsp;</p>
+        <p>First Lutheran Church, Sauk Centre - first 4 waters stops for
+          Marathon and 50km</p>
+        <p>&nbsp;</p>
+        <p>Resurrection Lutheran Church, St Joseph - Pre-Race
+          food/drink/bathrooms for Half Marathon, 6 water stops shared
+          by all distances, Post-Race food/drink</p>
+        <p></p>
+        <p></p>
+        <p>&nbsp;</p>
+        <p><strong>Sponsors</strong></p>
+        <p>Gatorade, cups and coolers donated by <a
+            href="http://www.getingearevents.com/">Get In Gear</a>.</p>
+        <p>&nbsp;</p>
+        <p><strong>Vendors</strong></p>
+        <p>EMT service from the <a
+href="http://www.cityofmelrose.com/index.asp?SEC=0068CBD6-1F66-4089-9931-1F2BE70C4C07&amp;Type=B_BASIC">City
+            of Melrose</a>.</p>
+        <p>Permit for use of Lake Wobegon Trail by <a
+            href="http://www.co.stearns.mn.us/Recreation/CountyParks">Stearns
+            County Parks</a>.</p>
+        <p>Trail Head Building by <a
+            href="http://www.cityofstjoseph.com/">City of St. Joseph</a>.</p>
+        <p>Port-a-Potties by <a
+            href="http://www.nelsonstoiletrental.com/">Nelson's</a></p>
+        <p>Start/Finish Banners by <a
+            href="http://www.signarama.com/mn-st-paul">Sign-a-Rama of St
+            Paul</a></p>
+        <p>Awards by <a href="http://www.crowntrophy.com/store-57">Crown
+            Awards of St Paul</a></p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <h3><a href="2013results.htm">2013 Results</a></h3>
+        <h3><a href="2012results.htm">2012 Results</a></h3>
+        <h3><a href="2011results.htm">2011 Results</a></h3>
+        <h3><a href="2010results.htm">2010 Results</a></h3>
+        <h3><a href="2009results.htm">2009 Results</a></h3>
+        <!-- end #mainContent --> </div>
+      <!-- InstanceEndEditable -->
+      <!-- This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats --><br
+        class="clearfloat">
+      <br clear="all">
+      <div id="footer">
+        <p>&nbsp;</p>
+        <p align="center"><font size="2">Copyright © 2014 by <a
+              href="http://walkonmn.org/">Walk On! Minnesota</a>. All
+            Rights Reserved.</font></p>
+        <p align="center"><font size="2">Contact <a
+              href="mailto:info@walkonmn.org?subject=Website">Webmaster</a>
+            if you have any issues or problems with this site.</font></p>
+        <p align="center">&nbsp;</p>
+        <!-- end #footer --></div>
+      <!-- end #container --></div>
+  </body>
+  <!-- InstanceEnd -->
+</html>

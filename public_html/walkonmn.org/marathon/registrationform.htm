@@ -1,0 +1,394 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/WeWalkMarathon.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>We Walk! Marathon, Half &amp; 50km</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" --><style type="text/css">
+<!--
+.style3 {font-size: 9pt}
+-->
+</style>
+<style type="text/css">
+<!--
+.style4 {
+	font-size: 10pt
+}
+-->
+</style><!-- InstanceEndEditable -->
+<style type="text/css"> 
+<!-- 
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background-color: #FFFFFF ;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #mainContent is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust based on your final font sizing.
+*/
+.twoColElsLtHdr #container { 
+	width: 46em;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+} 
+.twoColElsLtHdr #header { 
+	background-color: #FFFFFF; 
+	padding: 0 10px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.twoColElsLtHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+
+/* Tips for sidebar1:
+1. Be aware that if you set a font-size value on this div, the overall width of the div will be adjusted accordingly.
+2. Since we are working in ems, it's best not to use padding on the sidebar itself. It will be added to the width for standards compliant browsers creating an unknown actual width. 
+3. Space between the side of the div and the elements within it can be created by placing a left and right margin on those elements as seen in the ".twoColElsLtHdr #sidebar1 p" rule.
+*/
+.twoColElsLtHdr #sidebar1 {
+	float: left;
+	width: 12em; /* since this element is floated, a width must be given */
+	background-color: #FFFFCC; /* the background color will be displayed for the length of the content in the column, but no further */
+	padding: 15px 0; /* top and bottom padding create visual space within this div */
+	line-height: 30px;
+}
+.twoColElsLtHdr #sidebar1 h3, .twoColElsLtHdr #sidebar1 p {
+	margin-left: 10px; /* the left and right margin should be given to every element that will be placed in the side columns */
+	margin-right: 10px;
+}
+
+/* Tips for mainContent:
+1. If you give this #mainContent div a font-size value different than the #sidebar1 div, the margins of the #mainContent div will be based on its font-size and the width of the #sidebar1 div will be based on its font-size. You may wish to adjust the values of these divs.
+2. The space between the mainContent and sidebar1 is created with the left margin on the mainContent div.  No matter how much content the sidebar1 div contains, the column space will remain. You can remove this left margin if you want the #mainContent div's text to fill the #sidebar1 space when the content in #sidebar1 ends.
+3. To avoid float drop, you may need to test to determine the approximate maximum image/element size since this layout is based on the user's font sizing combined with the values you set. However, if the user has their browser font size set lower than normal, less space will be available in the #mainContent div than you may see on testing.
+4. In the Internet Explorer Conditional Comment below, the zoom property is used to give the mainContent "hasLayout." This avoids several IE-specific bugs that may occur.
+*/
+.twoColElsLtHdr #mainContent {
+	margin: 0 1.5em 0 13em; /* the right margin can be given in ems or pixels. It creates the space down the right side of the page. */
+} 
+.twoColElsLtHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background-color: #FFFFFF;
+} 
+.twoColElsLtHdr #footer p {
+	margin: 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+
+/* Miscellaneous classes for reuse */
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+--> 
+</style><!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+.twoColElsLtHdr #sidebar1 { padding-top: 30px; }
+.twoColElsLtHdr #mainContent { zoom: 1; padding-top: 15px; }
+/* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+</style>
+<![endif]-->
+<link href="../zzzzWOM.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.style1 {
+	font-size: 12
+}
+.style2 {
+	font-size: 12px
+}
+-->
+</style>
+</head>
+
+<body class="twoColElsLtHdr">
+
+<div id="container">
+  <div id="header">
+    <img src="images/2014 Logo.JPG" alt="We Walk Logo" width="541" height="148" align="left" />
+    <h2 align="center" class="style1">&nbsp;</h2>
+    <h2 align="center" class="style1">May 17, 2014</h2>
+    <h3 align="center" class="style2">on the Lake Wobegon Trail</h3>
+    <h3 align="center" class="style2">between Melrose &amp; St. Joseph</h3>
+    <h3 align="center" class="style2">in central Minnesota</h3>
+    <p align="center" class="style1">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p>&nbsp;</p>
+    <p><br />
+      </p>
+  </div>
+  <div id="sidebar1">
+    <h4 align="center"><a href="index.html">Home</a></h4>
+    <h4 align="center"><a href="registration.html">Registration</a></h4>
+    <h4 align="center"><a href="general.html">General Information</a></h4>
+    <h4 align="center"><a href="lastminute.html">Last Minute Information</a></h4>
+    <h4 align="center"><a href="course.htm">Course Information</a></h4>
+    <h4 align="center"><a href="directions.html">Directions</a></h4>
+    <h4 align="center"><a href="results.htm">Results</a><a href="2010results.htm"></a><a href="2009results.htm"></a></h4>
+    <h4 align="center"><a href="training.html">Training</a></h4>
+  <!-- end #sidebar1 --></div>
+  <!-- InstanceBeginEditable name="Content" -->
+  <div id="mainContent">
+    <h1>Paper Registration Form</h1>
+    <p>Please fill out this form and then follow the <a href="#directions">directions at the bottom</a>. Thanks.</p>
+    <p>&nbsp;</p>
+    <form id="WWMregistration" name="WWMregistration" method="post" action="">
+      <table width="500" border="0">
+        <tr>
+          <th scope="row"><div align="right">First Name</div></th>
+          <td>&nbsp;</td>
+          <td><input name="firstname" type="text" id="firstname" size="60" maxlength="60" /></td>
+        </tr>
+        <tr>
+          <th scope="row"><div align="right">Last Name</div></th>
+          <td>&nbsp;</td>
+          <td><input name="lastname" type="text" id="lastname" size="60" maxlength="60" /></td>
+        </tr>
+        <tr>
+          <th scope="row"><div align="right">Address</div></th>
+          <td>&nbsp;</td>
+          <td><input name="address" type="text" id="address" size="60" maxlength="60" /></td>
+        </tr>
+        <tr>
+          <th scope="row"><div align="right"></div></th>
+          <td>&nbsp;</td>
+          <td><input name="address2" type="text" id="address2" size="60" maxlength="60" /></td>
+        </tr>
+        <tr>
+          <th scope="row"><div align="right">City</div></th>
+          <td>&nbsp;</td>
+          <td><input name="city" type="text" id="city" size="60" maxlength="60" /></td>
+        </tr>
+        <tr>
+          <th scope="row"><div align="right">State/Province</div></th>
+          <td>&nbsp;</td>
+          <td><input name="state" type="text" id="state" size="60" maxlength="60" /></td>
+        </tr>
+        <tr>
+          <th scope="row"><div align="right">Zip/PostalCode</div></th>
+          <td>&nbsp;</td>
+          <td><input name="zip" type="text" id="zip" size="60" maxlength="60" /></td>
+        </tr>
+        <tr>
+          <th scope="row"><div align="right">Country</div></th>
+          <td>&nbsp;</td>
+          <td><input name="country" type="text" id="country" size="60" maxlength="60" /></td>
+        </tr>
+        <tr>
+          <th scope="row"><div align="right">Telephone</div></th>
+          <td>&nbsp;</td>
+          <td><input name="telephone" type="text" id="telephone" size="60" maxlength="60" /></td>
+        </tr>
+        <tr>
+          <th scope="row"><div align="right">E-Mail</div></th>
+          <td>&nbsp;</td>
+          <td><input name="e-mail" type="text" id="e-mail" size="60" maxlength="60" /></td>
+        </tr>
+        <tr>
+          <th scope="row"><div align="right">Race Day Age</div></th>
+          <td>&nbsp;</td>
+          <td><input name="age" type="text" id="age" size="10" maxlength="10" /></td>
+        </tr>
+        <tr>
+          <th scope="row"><div align="right">Gender</div></th>
+          <td>&nbsp;</td>
+          <td><table width="200">
+            <tr>
+              <td><label>
+                <input type="radio" name="Gender" value="F" id="Gender_0" />
+                F</label></td>
+              <td><input type="radio" name="Gender" value="M" id="Gender_1" />
+M</td>
+            </tr>
+          </table>          </td>
+        </tr>
+        <tr>
+          <th valign="top" scope="row"><div align="right">Walking Style</div></th>
+          <td>&nbsp;</td>
+          <td><p>
+            <label>
+              <input type="radio" name="walkstyle" value="walk" id="walkstyle_0" />
+              Walking</label>
+            <br />
+            <label>
+              <input type="radio" name="walkstyle" value="nordic" id="walkstyle_1" />
+              Nordic Walking</label>
+            <br />
+            <label>
+              <input type="radio" name="walkstyle" value="race" id="walkstyle_2" />
+              Race Walking</label>
+            <br />
+            <label>
+              <input type="radio" name="walkstyle" value="mix" id="walkstyle_3" />
+              Mixture Walk/Run</label>
+            <br />
+          </p></td>
+        </tr>
+        <tr>
+          <th valign="top" scope="row"><div align="right">Event</div></th>
+          <td>&nbsp;</td>
+          <td><p>
+            <label>
+              <input type="radio" name="RadioGroup1" value="marathon" id="RadioGroup1_0" />
+              Marathon</label>
+            <br />
+            <label>
+              <input type="radio" name="RadioGroup1" value="half" id="RadioGroup1_1" />
+              Half Marathon</label>
+            <br />
+            <label>
+              <input type="radio" name="RadioGroup1" value="50km" id="RadioGroup1_2" />
+              50 km</label>
+            <br />
+          </p></td>
+        </tr>
+        <tr>
+          <th scope="row"><div align="right">Time Estimate</div></th>
+          <td>&nbsp;</td>
+          <td><input name="timeest" type="text" id="timeest" size="10" maxlength="10" /> 
+            How many hours will you take to finish?</td>
+        </tr>
+        <tr>
+          <th scope="row"><div align="right">T Shirt Cut</div></th>
+          <td>&nbsp;</td>
+          <td><table width="278">
+            <tr>
+              <td width="136"><label>
+                <input type="radio" name="RadioGroup2" value="wc" id="RadioGroup2_0" />
+                Women's Cut</label></td>
+              <td width="130"><input type="radio" name="RadioGroup2" value="unisex" id="RadioGroup2_2" />
+Men's Cut</td>
+            </tr>
+          </table>          </td>
+        </tr>
+        <tr>
+          <th scope="row"><div align="right">T Shirt Size</div></th>
+          <td>&nbsp;</td>
+          <td><table width="200">
+            <tr>
+              <td><label>
+                <input type="radio" name="RadioGroup3" value="S" id="RadioGroup3_0" />
+                S</label></td>
+              <td><input type="radio" name="RadioGroup3" value="M" id="RadioGroup3_1" />
+M</td>
+              <td><input type="radio" name="RadioGroup3" value="L" id="RadioGroup3_2" />
+L</td>
+              <td><input type="radio" name="RadioGroup3" value="XL" id="RadioGroup3_3" />
+XL</td>
+            </tr>
+            
+          </table>          </td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <h3 class="style4">Video and Picture Release</h3>
+      <p class="style4">The undersigned grants full permission to We Walk! Marathon and 
+        agents authorized by them to use any photographs, videotapes, motion 
+      pictures, recordings or any other record of this event for any purpose.</p>
+      <p class="style4">&nbsp;</p>
+      <h3 class="style4"><strong>Release and Waiver</strong></h3>
+      <p class="style4">I know that walking is a potentially hazardous activity. I should not register 
+        for the We Walk! Marathon, Half Marathon &amp; 50 km unless I am medically 
+        able and properly trained. I assume any and all risks associated with 
+        walking during this event including but not limited to falls, contact with 
+        other participants, contact with other users of the multi-use path, crossing 
+        roads open to vehicle traffic, the effects of weather, including high heat 
+        and/or humidity, the conditions of the walking surface and risks from 
+        physical exertion over an extended period of time, all risks being known 
+        and appreciated by me. Knowing these facts, and in consideration with 
+      your acceptance of my entry fee, I hereby for myself, my executors, administrators or anyone else who might claim on my behalf, covenant not to sue and waive, release and discharge any organization associated with Walk On! Minnesota,We Walk! Marathon, the Minnesota Association of USA Track &amp; Field, USA Track &amp; Field, the County of Stearns, the local government and police, event volunteers and any and all sponsors including their agents, employees, assigns or anyone acting for or on their 
+        behalf, from any and all claims for liability for death, personal injury or 
+        property damage of any kind or nature whatsoever arising out of, or in the 
+        course of, my participation in this walking event. This Release and 
+        Waiver extends to all claims of every kind or nature whatsoever, foreseen 
+      or unforeseen, known or unknown.  This Release and Waiver does not apply to any injuries or damages that are the result of willful, wanton or intentional misconduct.</p>
+      <p class="style4">&nbsp;</p>
+      <h3 class="style4"><strong>Stearns County Waiver</strong></h3>
+      <p class="style4">In order to participate in this activity, I agree to hold the County of 
+      STEARNS, its employees, agents and contractors harmless, and I give up any right I may have to make claims or lawsuits against them. I acknowledge that this is not an essential service provided by the County of STEARNS. I understand and acknowledge that the activities I am about to voluntarily engage in as a participant have certain risks. I understand that these risks, known or unknown, anticipated or unanticipated, may result in injury, death, illness, disease or damage to myself or my property, or to other persons or their property. I voluntarily agree and promise to accept and assume all responsibilities, and injuries, death, illness, disease or damage to myself or my property arising from my participation in this activity. This waiver does not apply to any injuries or damages that are the result of willful, wanton or intentional misconduct. I am voluntarily participating in this activity with knowledge of the dangers and risks involved, and no one is forcing me to participate. I understand that entering into and signing this agreement affects my legal rights and results in my giving up or waiving certain legal rights and I accept this and sign this agreement of my own free will. My signature indicates that I have read this entire document, understand it completely, acknowledge that it cannot be modified or changed in any way by oral representations, and agree to be bound by its terms. This agreement shall be binding on behalf of myself, my heirs, assigns, personal representatives and estate.</p>
+      <p class="style4">&nbsp;</p>
+      <p class="style4">I have read the foregoing and certify my agreement to the Video and Picture Release, the Release and Waiver, and the Stearns County Waiver with my signature.</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <table width="500" border="0">
+        <tr>
+          <td width="326"><hr /></td>
+          <td width="12">&nbsp;</td>
+          <td width="140"><hr /></td>
+        </tr>
+        <tr>
+          <td align="center" valign="top"><span class="style3">Signature</span></td>
+          <td>&nbsp;</td>
+          <td align="center" valign="top"><span class="style3">date</span></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <h3><a name="directions" id="directions"></a>Directions</h3>
+      <p>Please fill out this form before printing.</p>
+      <p>&nbsp;</p>
+      <p>Print a copy of this registration form (it uses 2 printed pages). </p>
+     
+        <ul>
+          <li>With Windows Internet Explorer there are at least 2 ways to print:
+            <ul>
+              <li>press <em>ctrl-p</em> (hold down the <em>ctrl</em> key and press the <em>p</em> key) or</li>
+              <li>right click on some blank part of this page and select <em>print</em> from the list of options.</li>
+            </ul>
+          </li>
+          <li>If you have another browser, consult the browser's &quot;help&quot; facility</li>
+        </ul>
+      <p>&nbsp;</p>
+      <p>On the second page, after the waivers, <em>date</em> and <em>sign </em>it<em>.</em></p>
+      <p>&nbsp;</p>
+      <p>Make out your check for the <a href="registration.html">appropriate registration fee</a> payable to </p>
+      <blockquote>
+        <p><strong>We Walk! Marathon.</strong></p>
+      </blockquote>
+      <p>&nbsp;</p>
+      <p></p>
+      <p>Mail your check and both pages of the signed  registration form to:</p>
+      <p>&nbsp;</p>
+      <blockquote>
+        <p>We Walk! Marathon</p>
+        <p>638 Summit Ave</p>
+        <p>Saint Paul, MN 55105</p>
+        <p>USA</p>
+      </blockquote>
+      <p>&nbsp;</p>
+    </form>
+    <p>Thank you for registering.<!-- end #mainContent -->
+  </p>
+    </div>
+  <!-- InstanceEndEditable -->
+  <!-- This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats --><br class="clearfloat" />
+<br clear="all" />
+    <div id="footer">
+     <p>&nbsp;</p>
+     <p align="center"><font size="2">Copyright © 2014 by <a href="http://walkonmn.org/">Walk On! Minnesota</a>. All Rights Reserved.</font></p>
+    <p align="center"><font size="2">Contact <a href="mailto:info@walkonmn.org?subject=Website">Webmaster</a> if you have any 
+      issues or problems with this site.</font></p>
+    <p align="center">&nbsp;</p>
+  <!-- end #footer --></div>
+<!-- end #container --></div>
+</body>
+<!-- InstanceEnd --></html>

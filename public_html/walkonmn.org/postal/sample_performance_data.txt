@@ -1,0 +1,24 @@
+-- sample performance data file
+--
+-- lines that are blank, or begin with two - characters are ignored
+--
+-- Format: Time - must be one of 60 or 30 (one-hour or half-hour in minutes)
+-- Format: Distance - in whole meters - do not use commas (use 15003 not 15,003)
+-- Format: Age - in years on race day
+-- Format: Gender - F or f for Female or M or m for Male
+-- Format: State/Province - USA use 2 letter postal abbreviation
+
+-- Format: do not use Tab characters - align information with spaces
+-- Format: do not change column headings
+-- Format: you may adjust the width of columns as necessary for your data
+
+-- please change the race name on the following line to your race name
+-- Race Name: sample performance_data.txt
+
+-- do not change this line (it helps that automatic reader)
+-- File Format: v1
+
+Time Distance Age Gender LastName    RestOfName    City        State/Prov Country
+ 60     9235   59    m   Johnson     Bruce James   St. Paul    MN         USA
+ 60    15007   23    M   De'Angelo   Felix         Toronto     Ontario    Canada
+ 30     4235   75    F   Washington  Martha        Washington  DC         USA

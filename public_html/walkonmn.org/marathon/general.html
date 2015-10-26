@@ -1,0 +1,623 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <!-- InstanceBegin template="/Templates/WeWalkMarathon.dwt" codeOutsideHTMLIsLocked="false" --><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>We Walk! Marathon</title>
+    <!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="head" -->
+    <style type="text/css">
+<!--
+.style2 {	color: #000000;
+	font-weight: bold;
+}
+.style2 {	font-size: 12
+}
+.style2 {color: #000000}
+-->
+</style>
+    <style type="text/css">
+<!--
+.style3 {
+	color: #000000;
+	font-size: 12pt;
+	font-weight: bold;
+}
+-->
+</style>
+    <style type="text/css">
+<!--
+.style4 {font-size: 12pt}
+-->
+</style>
+    <style type="text/css">
+<!--
+.style5 {font-size: 12pt; font-weight: bold; }
+-->
+</style><!-- InstanceEndEditable -->
+    <style type="text/css"> 
+<!-- 
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background-color: #FFFFFF ;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #mainContent is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust based on your final font sizing.
+*/
+.twoColElsLtHdr #container { 
+	width: 46em;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+} 
+.twoColElsLtHdr #header { 
+	background-color: #FFFFFF; 
+	padding: 0 10px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.twoColElsLtHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+
+/* Tips for sidebar1:
+1. Be aware that if you set a font-size value on this div, the overall width of the div will be adjusted accordingly.
+2. Since we are working in ems, it's best not to use padding on the sidebar itself. It will be added to the width for standards compliant browsers creating an unknown actual width. 
+3. Space between the side of the div and the elements within it can be created by placing a left and right margin on those elements as seen in the ".twoColElsLtHdr #sidebar1 p" rule.
+*/
+.twoColElsLtHdr #sidebar1 {
+	float: left;
+	width: 12em; /* since this element is floated, a width must be given */
+	background-color: #FFFFCC; /* the background color will be displayed for the length of the content in the column, but no further */
+	padding: 15px 0; /* top and bottom padding create visual space within this div */
+	line-height: 30px;
+}
+.twoColElsLtHdr #sidebar1 h3, .twoColElsLtHdr #sidebar1 p {
+	margin-left: 10px; /* the left and right margin should be given to every element that will be placed in the side columns */
+	margin-right: 10px;
+}
+
+/* Tips for mainContent:
+1. If you give this #mainContent div a font-size value different than the #sidebar1 div, the margins of the #mainContent div will be based on its font-size and the width of the #sidebar1 div will be based on its font-size. You may wish to adjust the values of these divs.
+2. The space between the mainContent and sidebar1 is created with the left margin on the mainContent div.  No matter how much content the sidebar1 div contains, the column space will remain. You can remove this left margin if you want the #mainContent div's text to fill the #sidebar1 space when the content in #sidebar1 ends.
+3. To avoid float drop, you may need to test to determine the approximate maximum image/element size since this layout is based on the user's font sizing combined with the values you set. However, if the user has their browser font size set lower than normal, less space will be available in the #mainContent div than you may see on testing.
+4. In the Internet Explorer Conditional Comment below, the zoom property is used to give the mainContent "hasLayout." This avoids several IE-specific bugs that may occur.
+*/
+.twoColElsLtHdr #mainContent {
+	margin: 0 1.5em 0 13em; /* the right margin can be given in ems or pixels. It creates the space down the right side of the page. */
+} 
+.twoColElsLtHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background-color: #FFFFFF;
+} 
+.twoColElsLtHdr #footer p {
+	margin: 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+
+/* Miscellaneous classes for reuse */
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+--> 
+</style><!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+.twoColElsLtHdr #sidebar1 { padding-top: 30px; }
+.twoColElsLtHdr #mainContent { zoom: 1; padding-top: 15px; }
+/* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+</style>
+<![endif]-->
+    <link href="../zzzzWOM.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+<!--
+.style1 {
+	font-size: 12
+}
+.style2 {
+	font-size: 12px
+}
+-->
+</style>
+  </head>
+  <body class="twoColElsLtHdr">
+    <div id="container">
+      <div id="header"> <img src="images/2014%20Logo.JPG" alt="We Walk
+          Logo" height="148" align="left" width="541">
+        <h2 class="style1" align="center">&nbsp;</h2>
+        <h2 class="style1" align="center">May 21, 2016</h2>
+        <h3 class="style2" align="center">on the Lake Wobegon Trail</h3>
+        <h3 class="style2" align="center">between Melrose &amp; St.
+          Joseph</h3>
+        <h3 class="style2" align="center">in central Minnesota</h3>
+        <p class="style1" align="center">&nbsp;</p>
+        <p align="center">&nbsp;</p>
+        <p>&nbsp;</p>
+        <p><br>
+        </p>
+      </div>
+      <div id="sidebar1">
+        <h4 align="center"><a href="index.html">Home</a></h4>
+        <h4 align="center"><a href="registration.html">Registration</a></h4>
+        <h4 align="center"><a href="general.html">General Information</a></h4>
+        <h4 align="center"><a href="lastminute.html">Last Minute
+            Information</a></h4>
+        <h4 align="center"><a href="course.htm">Course Information</a></h4>
+        <h4 align="center"><a href="directions.html">Directions</a></h4>
+        <h4 align="center"><a href="results.htm">Results</a><a
+            href="2010results.htm"></a><a href="2009results.htm"></a></h4>
+        <h4 align="center"><a href="training.html">Training</a></h4>
+        <!-- end #sidebar1 --></div>
+      <!-- InstanceBeginEditable name="Content" -->
+      <div id="mainContent">
+        <h1>General Information</h1>
+        <p>&nbsp;</p>
+        <h2><a name="schedule" id="schedule"></a>Schedule of Events</h2>
+        <table border="0" cellpadding="0" cellspacing="4" width="100%">
+          <tbody>
+            <tr>
+              <td valign="top">
+                <div class="style3" align="right">Packet Pickup</div>
+              </td>
+              <td valign="top"><span class="style4">&nbsp;&nbsp;</span></td>
+              <td valign="top">
+                <p class="style4">5:30pm-8pm Friday</p>
+                <p class="style4">5am-6am Saturday (Marathon &amp; 50km)</p>
+                <p class="style4">6:15am-7:45am Saturday (Half Marathon)</p>
+              </td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <div class="style4" align="right"><strong>Bus to Star</strong>t</div>
+              </td>
+              <td valign="top"><span class="style4">&nbsp;&nbsp;</span></td>
+              <td valign="top">
+                <p class="style4">6am Saturday (Marathon &amp; 50km)</p>
+                <p class="style4">7:45am Saturday (Half Marathon)</p>
+              </td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <div class="style5" align="right">Start</div>
+              </td>
+              <td valign="top"><span class="style4">&nbsp;&nbsp;</span></td>
+              <td valign="top">
+                <p class="style4">7am Saturday (Marathon &amp; 50km)</p>
+                <p class="style4">8:30am Saturday (Half Marathon)</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>&nbsp;</p>
+        <h2>Walking </h2>
+        <p></p>
+        <p>This is an event designed for walkers. We welcome all
+          walkers, including, but not limited to, ordinary walkers,
+          fitness walkers, power walkers, nordic walkers, race walkers,
+          hikers and even walk/runners.</p>
+        <p>&nbsp;</p>
+        <p>We ask that all participants walk. There are lots of
+          marathons for runners. If you want to run a marathon in
+          central Minnesota at about this time of year, consider the <a
+            href="http://www.lakewobegontrailmarathon.org/">Lake Wobegon
+            Trail Marathon</a><a
+            href="http://www.scrr.org/Wobegon/Wobegon.htm"></a><a
+            href="http://www.scrr.org/Wobegon/Wobegon.htm"></a>.</p>
+        <p>&nbsp;</p>
+        <h2>Styles of Walking </h2>
+        <p></p>
+        <p>When you register, you must indicate your walking style. You
+          must use your selected style for the entire distance of your
+          event. Here are the definitions of the walking styles
+          available in this year's event:</p>
+        <p>&nbsp;</p>
+        <p><strong>Walking</strong> means that at least one foot appears
+          to be touching the ground at all times. Strolling, hiking,
+          fitness walking, power walking and ordinary walking all follow
+          this rule, as do Nordic walking and race walking. </p>
+        <p>&nbsp;</p>
+        <p><strong>Nordic Walking</strong> means that you must walk and
+          use one walking pole in each hand on every step. </p>
+        <p>&nbsp;</p>
+        <p><strong><a name="racewalk" id="racewalk"></a>Race Walking</strong>
+          means that you must follow USATF rule 232.2: “[…] a
+          progression of steps so taken that the [race] walker makes
+          contact with the ground so that no visible (to the human eye)
+          loss of contact occurs. The advancing leg must be straightened
+          (i.e., not bent at the knee) from the moment of first contact
+          with the ground until the leg is in the vertical upright
+          position.” </p>
+        <p>&nbsp;</p>
+        <p><strong><a name="mix" id="mix"></a>Mixture of Walking and
+            Running </strong> means that you walk part of the time and
+          run or jog part of the time. For more information on this
+          style, check out the <a href="http://www.jeffgalloway.com/">web
+            site of Jeff Galloway</a>, the inventor of the Galloway
+          Run-Walk-Run method. </p>
+        <p>&nbsp;</p>
+        <p>For those of you that register in the mixture style, we ask
+          that you note that this is a walking marathon. If you really
+          are going to be running a majority of the time and your
+          expected completion time is less than 4.5 hours for the
+          marathon or less than 2 hours for the half marathon or less
+          than 5 hours for the 50k then please enter another marathon.
+          There are lots of marathons for speedy runners. If you want to
+          run a marathon in central Minnesota at about this time of
+          year, consider the <a
+            href="http://www.lakewobegontrailmarathon.org/">Lake Wobegon
+            Trail Marathon</a><a
+            href="http://www.scrr.org/Wobegon/Wobegon.htm"></a>.</p>
+        <p>&nbsp;</p>
+        <h2>Walking Judges</h2>
+        <p></p>
+        <p></p>
+        <p>We have USATF certified walking judges on the course. The
+          walking judges are there to ensure that the styles of walking
+          mean something, not to ask you to change how you walk. </p>
+        <p>&nbsp;</p>
+        <p>If a walking judge sees anyone running, the judge moves them
+          into the mixture of walking and running style. If a judge sees
+          a Nordic walker carrying their poles instead of using them,
+          the judge moves them to the walking style. If a judge sees a
+          race walker violating the “straightened at the knee” rule, the
+          judge moves them to the walking style. </p>
+        <p>&nbsp;</p>
+        <h2>How slow can you go?</h2>
+        <p>For the marathon and the 50km, the time limit is 9 hours -
+          from the 7am start to 4pm course close. That means you have to
+          maintain a pace of about 20 min/mile for the marathon or 17
+          min/mile for 50km to finish in under 9 hours.</p>
+        <p>&nbsp;</p>
+        <p>For the half marathon, the time limit is 7.5 hours - from the
+          8:30am start to the 4pm course close. That means you have to
+          maintain a pace of about 34 min/mile to finish in under 7.5
+          hours.</p>
+        <p>&nbsp;</p>
+        <p>Water stops and Aid Stations are kept open and fully stocked
+          for everyone.</p>
+        <p>&nbsp;</p>
+        <h2>How fast can you go?</h2>
+        <p>You can go as fast as you can, as long as you are walking.</p>
+        <p>&nbsp;</p>
+        <p>We expect the first finishers to take about 4:30 for the
+          marathon, 1:45 for the half marathon and 5:30 for the 50km. </p>
+        <p>&nbsp;</p>
+        <p>If you are doing a <a href="#mix">mixture of walking and
+            running</a>, and you are faster than the times just
+          mentioned, please consider a running marathon instead. If you
+          want to run/walk a fast marathon in central Minnesota at about
+          this time of year, consider the <a
+            href="http://www.lakewobegontrailmarathon.org/">Lake Wobegon
+            Trail Marathon</a><a
+            href="http://www.scrr.org/Wobegon/Wobegon.htm"></a><a
+            href="http://www.scrr.org/Wobegon/Wobegon.htm"></a>.</p>
+        <p>&nbsp;</p>
+        <p>We will have the water stops open in time for the fastest
+          walkers that come. If you plan on being faster than the times
+          we listed above, please <a href="mailto:info@walkonmn.org">email
+            us</a> by May 1 and let us know your event, your expected
+          time and your walking style.</p>
+        <p>&nbsp;</p>
+        <h2><a name="trailhead" id="trailhead"></a>Lake Wobegon
+          Trailhead in St Joseph</h2>
+        <p>On Saturday morning, this is where the action begins and
+          ends. Race day packet pickup, the bus to the starting line,
+          the finish line, and post-race goodies are all centered around
+          the trailhead building.</p>
+        <blockquote>
+          <p>Lake Wobegon Trail trailhead building</p>
+          <p>572 College Ave N</p>
+          <p>St Joseph, MN</p>
+        </blockquote>
+        <p></p>
+        <p>This is just north of the white water tower.</p>
+        <p>&nbsp;</p>
+        <h2>Packet Pickup </h2>
+        <p>On the Friday, just prior to race day, you may pickup your
+          packet at the <a href="#EventHotel">event hotel</a> from
+          5:30pm-8pm. </p>
+        <p>&nbsp;</p>
+        <p>On Saturday, race day, you may pickup your packet at the <a
+            href="#trailhead">Lake Wobegon Trailhead in St Joseph</a>.</p>
+        <blockquote>
+          <p>5am-6am Saturday (Marathon &amp; 50km) </p>
+          <p>6:15am-7:45am Saturday (Half Marathon) </p>
+        </blockquote>
+        <p>Please allow ample time to pickup your packet before the bus
+          to the start leaves.</p>
+        <p>&nbsp;</p>
+        <h2>Pre-Race Dinner </h2>
+        <p>Dinner plans will be announced after the opening of
+          registration late 2015.</p>
+        <p>&nbsp;</p>
+        <h2>Bus Transportation</h2>
+        <p>Parking at the start lines is very limited. There is ample
+          parking at the finish line, adjacent to the <a
+            href="#trailhead">Lake Wobegon Trailhead in St Joseph</a>.
+          There is no transportation available from the finish line back
+          to the start to pickup a parked vehicle after the race. There
+          is no transportation from the finish line back to the <a
+            href="#EventHotel">event hote</a>l.</p>
+        <p>&nbsp;</p>
+        <p>We recommend that you use the provided bus transportation to
+          the start. The bus will pick you up from the <a
+            href="#trailhead">Lake Wobegon Trailhead in St Joseph</a>
+          and take you to your starting line.</p>
+        <p>&nbsp;</p>
+        <p>The bus to the marathon start line and the 50km starting line
+          leaves at 6am targeting a 6:40am arrival in Melrose. The bus
+          to the half marathon start line leaves at 7:45am targeting an
+          8:20am arrival in Albany.</p>
+        <p>&nbsp;</p>
+        <h2>Emergencies</h2>
+        <p><strong>Please bring your cell phone and carry it with you</strong>.
+          While we don't expect any emergencies, we realize they are by
+          nature, unexpected. It is good to be ready. The course is
+          through rural Minnesota. Often your only companions will be
+          the soft rustle of the wind and other walkers. </p>
+        <p>&nbsp;</p>
+        <p>At race start, we will provide you with 2 cell phone numbers
+          - one to contact race management and the second to contact the
+          EMT service that is supporting our race. 911 is also
+          available. If you are at an Aid Station, an Aid Station worker
+          can make these calls for you, and can provide additional
+          assistance.</p>
+        <p>&nbsp;</p>
+        <p>If you have an emergency, dial 911 first. </p>
+        <p>&nbsp;</p>
+        <p>The EMTs covering the event are there to assist you with any
+          medical issues you have. If you need help dealing with
+          blisters, or the sun, or whatever, please ask them for
+          assistance. They may also ask you about how you are feeling.</p>
+        <p>&nbsp;</p>
+        <p>Each staffed water stop has a self-help first aid kit. band
+          aids, sunscreen, vaseline, and other basics are in the kit.
+          Ask the staff member at the water stop if you wish first aid
+          supplies.</p>
+        <p>&nbsp;</p>
+        <p>If you see anything of concern along the trail, or encounter
+          an issue where you need assistance, please contact a staff
+          member at one of the staffed water stops, or contact the race
+          director, or contact the EMT, or in the event of an emergency,
+          call 911.</p>
+        <p></p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <h2>The Weather </h2>
+        <p></p>
+        <p>The weather in Minnesota is quite variable in May. It could
+          be 30 degrees and windy, or 70 degrees and sunny. One year we
+          had 3" of rain at the finish line during the race. Another
+          year was 60 degrees with a wonderful tailwind. Be sure to <a
+href="http://www.wunderground.com/cgi-bin/findweather/hdfForecast?query=56374&amp;searchType=WEATHER">check
+            the predicted weather for St Joseph, MN 56374</a> before you
+          decide what to wear on race day.</p>
+        <p>&nbsp;</p>
+        <p>The event is never postponed because of weather to another
+          day. The start can be delayed if a line of severe storms comes
+          thru. Each participant should make themselves aware of the
+          predicted weather for the day and make appropriate decisions
+          about what to do. You will be walking thru rural Minnesota,
+          with sturdy shelter often a significant distance away. </p>
+        <p>&nbsp;</p>
+        <p>You can switch from a longer distance to a shorter distance
+          on race day if you are concerned about the weather (or for any
+          other reason). We do not offer refunds for changing to a
+          shorter distance.</p>
+        <p>&nbsp;</p>
+        <p>If the weather is sufficiently bad in the morning, we may
+          cancel one or more of the distances. We do not offer refunds
+          in the event that we must cancel your distance because of
+          weather. </p>
+        <p>&nbsp;</p>
+        <p>We are very open about the decision making process regarding
+          weather. If you see something of concern, please bring it to
+          our attention. A lot of weather information is available to
+          every smart phone user these days. We encourage you to take
+          advantage of this information prior to the start, and during
+          the event. </p>
+        <p>&nbsp;</p>
+        <h2>Health Warnings</h2>
+        <p>The sun in mid-May is the same strength as the sun in late
+          July. Your skin is probably not used to long exposure to the
+          sun (especially if you are just coming out of a long Minnesota
+          winter). We recommend sun block.</p>
+        <p>&nbsp;</p>
+        <p>Even if it seems cold, remember to drink an appropriate
+          amount of fluids for your body and level of effort. We have
+          water stops every couple of miles that offer water and sports
+          drink and something simple to eat.</p>
+        <p>&nbsp;</p>
+        <p></p>
+        <p><strong>Check for ticks after the race.</strong> If you stay
+          on the asphalt path, you probably won't get any. Ticks with
+          Lyme disease are in Minnesota, so you can't be too careful.</p>
+        <p></p>
+        <p>&nbsp;</p>
+        <h2>The Start </h2>
+        <p></p>
+        <p>The bus to marathon and 50km start leaves at 6am, with the
+          start at 7am in Melrose. The bus to the half marathon start
+          leaves at 7:45am, with the start at 8:30am just east of
+          Albany. </p>
+        <p>&nbsp;</p>
+        <p>We encourage all participants to take the bus to the start.</p>
+        <p>&nbsp;</p>
+        <p>Directions to the start for spectators and support crews are
+          <a href="directions.html">here</a>. </p>
+        <p>&nbsp;</p>
+        <h2>Saturday Morning Coffee</h2>
+        <p>For the marathon, coffee, bagels, juice and fruit will be at
+          the starting line at St Mary's School. For the half marathon,
+          coffee and bagels will be available at the trailhead building
+          starting at 6am.</p>
+        <p></p>
+        <p>&nbsp;</p>
+        <p></p>
+        <p></p>
+        <h2>The Course</h2>
+        <p>All events are held on the Lake Wobegon® Regional Trail. <a
+            href="course.htm">More detail</a></p>
+        <p>&nbsp;</p>
+        <h2>The Finish </h2>
+        <p>The finish is at mile marker 82 on the Lake Wobegon Regional
+          Trail, on the north edge of St Joseph. There will be post race
+          goodies in the <a href="#trailhead">Lake Wobegon Trailhead in
+            St Joseph</a>, just a 100 meters down the trail from the
+          finish. </p>
+        <p>&nbsp;</p>
+        <h2>Awards </h2>
+        <p>Every finisher will receiver a We Walk! Marathon
+          commemorative medal at the finish.</p>
+        <h2>&nbsp;</h2>
+        <h2>Bib Numbers</h2>
+        <p><strong>Bib numbers should be placed on the front of the
+            chest.</strong> This helps our water stop workers identify
+          you as a part of the event, makes it possible for our
+          photographers to identify you in the pictures, and makes it
+          easier for our finish line crew to get the timing and the
+          awards done quickly.</p>
+        <p>&nbsp;</p>
+        <p>We provide each walker with 4 identically numbered bib
+          numbers. We do this because we want you to put a bib number on
+          each layer that you wear. That way, when you get warm and take
+          a layer off, there is still a bib number visible. And, when
+          you want to drop of <a href="#excess">excess clothing</a>,
+          there is a good chance that one of the pieces will have a bib
+          number attached to it, making the drop off quick and simple,
+          and the recovery of clothes at the finish easy because you can
+          easily see your bib number thru the clear plastic bag.</p>
+        <p>&nbsp;</p>
+        <p>If you have fewer than 4 layers, please place the remaining
+          bib numbers on the back of the layers you think are most
+          likely to be on the outside during the last part of the event.
+          This is in addition to the bib number that is already on the
+          front.</p>
+        <p>&nbsp;</p>
+        <p>If you have a water proof jacket, or other good jacket that
+          you don't want to pierce with pins, you don't need to attach a
+          bib number to it. But, please wear you bib number on the layer
+          beneath the jacket and be prepared to "flash" your bib number
+          at the finish line. Put a bib number for the water proof layer
+          or good jacket in a pocket so that if you check it as <a
+            href="#excess">excess clothing</a>, you have a bib number to
+          identify it.</p>
+        <p>&nbsp;</p>
+        <h2><a name="excess" id="excess"></a>Excess Clothing</h2>
+        <p>We provide clear plastic bags at the start line, and at the
+          first staffed water stop you encounter, to hold any clothes
+          that you no longer need. For the marathon and 50km, you may
+          also drop clothes off at the second staffed water stop. </p>
+        <p>&nbsp;</p>
+        <p>Simply get a clear plastic bag from the Aid Station
+          volunteer, place your excess clothes inside, making one of
+          your bib numbers visible thru the bag, tie it shut and give it
+          back to the Aid Station volunteer.</p>
+        <p>&nbsp;</p>
+        <p>This is why we give you 4 identical bib numbers. Since "tops"
+          are the most likely piece of clothing to remove, having a bib
+          number already on the front of each layer makes this process
+          quick and simple. Your bib number will identify the owner of
+          the bag, and will be easily visible thru the clear plastic
+          bag. We plan to have each bag at <a href="#trailhead">Lake
+            Wobegon Trailhead in St Joseph</a> at the finish line before
+          you cross the finish line.</p>
+        <p>&nbsp;</p>
+        <h2>Spectators </h2>
+        <p></p>
+        <p></p>
+        <p>There are several good opportunities for spectators to
+          interact with participants along the <a href="course.htm">course</a>.
+          The prime locations are in each of the towns: Melrose,
+          Freeport, Albany, Avon, and St Joseph. The Lake Wobegon Trail
+          is on an old railroad track, which is on most road maps. </p>
+        <p>&nbsp;</p>
+        <p>The start of the half marathon is adjacent to a residential
+          neighborhood. Take special care to be considerate of the
+          residents if you come to the half marathon start.</p>
+        <p>&nbsp;</p>
+        <p>We ask that spectators use extreme caution if they select a
+          rural location to watch. Off-street parking is not available
+          along the country roads, and road shoulders are narrow or
+          non-existent. This is especially true at Collegeville. It may
+          look like a town on the map, but it is not even a wide spot in
+          the road.</p>
+        <p>&nbsp;</p>
+        <h2>Airports </h2>
+        <p>The closest airport is in St Cloud, MN (airport code STC).
+          There are few flights per day into STC, and the planes are
+          small, so book early. STC is about 15 miles (30 minutes) away
+          from St Joseph (<a
+href="http://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=st+joseph,+mn&amp;daddr=STC&amp;hl=en&amp;geocode=&amp;mra=ls&amp;sll=45.243143,-93.707406&amp;sspn=1.823581,1.741333&amp;ie=UTF8&amp;z=11">map</a>).
+        </p>
+        <p>&nbsp;</p>
+        <p>The nearby major airport is in Minneapolis / St. Paul
+          (airport code MSP). MSP is a major hub. MSP is 86 miles from
+          St Joseph (<a
+href="http://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=st+joseph,+mn&amp;daddr=MSP&amp;geocode=FSVEtwIdCNFg-ikTSO7Ez1m0UjEEjESIFJJ-SQ;&amp;hl=en&amp;mra=ls&amp;sll=45.55381,-94.193265&amp;sspn=0.453406,0.435333&amp;ie=UTF8&amp;z=9">map</a>).
+        </p>
+        <p>&nbsp;</p>
+        <h2>Local Transportation &amp; Rental Cars </h2>
+        <p>St. Joseph is in rural Minnesota with almost non-existent
+          public transportation. You will most likely need to have
+          access to a car. Rental cars are available at the airports
+          (STC and MSP). </p>
+        <p>&nbsp;</p>
+        <h2><a name="EventHotel" id="EventHotel"></a>Lodging </h2>
+        <p>St Joseph
+          <!-- end #mainContent --> is a small town, with very limited
+          commercial lodging. St Cloud is a larger town nearby with more
+          housing alternatives.</p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p>&nbsp;</p>
+        An event hotel/lodging will be announced in early 2016.<br>
+        <p>&nbsp;</p>
+        <p>There are several other motels nearby. </p>
+        <p>One way to find them is to <a
+            href="https://www.google.com/#q=hotels+st+joseph+mn">Google
+            "hotels st joseph mn"</a>.</p>
+        <p>&nbsp;</p>
+        <h2>Questions?</h2>
+        <p>Contact race director <a
+            href="mailto:tonkatails@aol.com?subject=We%20Walk%20Marathon%20Question">Dave
+            Daubert</a>. </p>
+        <p>&nbsp;</p>
+        <p></p>
+        <!-- end #mainContent --> </div>
+      <!-- InstanceEndEditable -->
+      <!-- This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats --><br
+        class="clearfloat">
+      <br clear="all">
+      <div id="footer">
+        <p>&nbsp;</p>
+        <p align="center"><font size="2">Copyright © 2014 by <a
+              href="http://walkonmn.org/">Walk On! Minnesota</a>. All
+            Rights Reserved.</font></p>
+        <p align="center"><font size="2">Contact <a
+              href="mailto:info@walkonmn.org?subject=Website">Webmaster</a>
+            if you have any issues or problems with this site.</font></p>
+        <p align="center">&nbsp;</p>
+        <!-- end #footer --></div>
+      <!-- end #container --></div>
+  </body>
+  <!-- InstanceEnd -->
+</html>
